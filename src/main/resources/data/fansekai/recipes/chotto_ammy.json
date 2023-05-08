@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#+#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fansekai:dragon"
+    },
+    "+": {
+      "item": "fansekai:amulet"
+    }
+  },
+  "result": {
+    "item": "fansekai:amulet_c"
+  }
+}

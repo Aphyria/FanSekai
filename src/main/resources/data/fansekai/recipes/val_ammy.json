@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#+#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fansekai:angel"
+    },
+    "+": {
+      "item": "fansekai:amulet"
+    }
+  },
+  "result": {
+    "item": "fansekai:amulet_v"
+  }
+}
