@@ -22,6 +22,16 @@ public class ModPlacedFeatures {
     public static final RegistryObject<PlacedFeature> DEMON_ORE_PLACED = PLACED_FEATURES.register("demon_ore_placed",
             ()-> new PlacedFeature(ModConfigFeatures.DEMON_ORE.getHolder().get(),
                     commonOrePlacement(6, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(20), VerticalAnchor.belowTop(20)))));
+    public static final RegistryObject<PlacedFeature> RAT_ORE_PLACED = PLACED_FEATURES.register("rat_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.RAT_ORE.getHolder().get(),
+                    commonOrePlacement(4, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(20)))));
+    public static final RegistryObject<PlacedFeature> TIGER_ORE_PLACED = PLACED_FEATURES.register("tiger_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.TIGER_ORE.getHolder().get(),
+                    commonOrePlacement(4, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(20)))));
+    public static final RegistryObject<PlacedFeature> RABU_ORE_PLACED = PLACED_FEATURES.register("rabu_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.RABU_ORE.getHolder().get(),
+                    commonOrePlacement(4, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(20)))));
+
 
 
     private static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {

@@ -1,6 +1,7 @@
 package net.aphyria.fansekai.effects;
 
 import net.aphyria.fansekai.FanSekai;
+import net.aphyria.fansekai.customclass.aphy.Infinity;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

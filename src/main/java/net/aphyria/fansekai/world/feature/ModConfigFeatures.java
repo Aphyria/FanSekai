@@ -24,6 +24,12 @@ public class ModConfigFeatures {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.ANGEL_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> DEMON_ORE_NETHER = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.DEMON_ORE.get().defaultBlockState())));
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> RAT_ORE_OVER = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RAT_ORE.get().defaultBlockState())));
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> TIGER_ORE_OVER = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TIGER_ORE.get().defaultBlockState())));
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> RABU_ORE_OVER = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RABU_ORE.get().defaultBlockState())));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> JADE_ORE = CONFIGURED_FEATURES.register("jade_ore",
             ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(JADE_ORE_OVERWORLD.get(), 8)));
@@ -31,6 +37,12 @@ public class ModConfigFeatures {
             ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(ANGEL_ORE_OVERWORLD.get(), 12)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> DEMON_ORE = CONFIGURED_FEATURES.register("demon_ore",
             ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(DEMON_ORE_NETHER.get(), 10)));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> RAT_ORE = CONFIGURED_FEATURES.register("rat_ore",
+            ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(RAT_ORE_OVER.get(), 10)));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> TIGER_ORE = CONFIGURED_FEATURES.register("tiger_ore",
+            ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(TIGER_ORE_OVER.get(), 10)));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> RABU_ORE = CONFIGURED_FEATURES.register("rabu_ore",
+            ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(RABU_ORE_OVER.get(), 10)));
 
     public static void register(IEventBus eventBus){
         CONFIGURED_FEATURES.register(eventBus);

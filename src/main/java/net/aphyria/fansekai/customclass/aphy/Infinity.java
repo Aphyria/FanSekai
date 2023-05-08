@@ -1,4 +1,4 @@
-package net.aphyria.fansekai.effects;
+package net.aphyria.fansekai.customclass.aphy;
 
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffect;
@@ -16,7 +16,7 @@ public class Infinity extends MobEffect {
     public void applyEffectTick(LivingEntity pLivingEntity, int amp) {
         if (!pLivingEntity.level.isClientSide){
             if (pLivingEntity.getHealth() < pLivingEntity.getMaxHealth()){
-                pLivingEntity.heal(Math.min((pLivingEntity.getMaxHealth()-pLivingEntity.getHealth()), 6.0f));
+                pLivingEntity.getAttributes();
             }
             //pLivingEntity
         }
