@@ -5,12 +5,10 @@ import net.aphyria.fansekai.customclass.aphy.AphyKatana;
 import net.aphyria.fansekai.customclass.aphy.OPAmulet;
 import net.aphyria.fansekai.customclass.aphy.Yukata;
 import net.aphyria.fansekai.customclass.items.Amulet;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.item.ArmorMaterial;
+import net.aphyria.fansekai.customclass.items.NormWeap;
+import net.aphyria.fansekai.customclass.items.ValSpear;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,6 +19,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> LOGO = ITEMS.register("logo", () -> new Item(new Item.Properties()));
 
+    //ingots
     public static final RegistryObject<Item> DRAGON = ITEMS.register("dragon", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> ANGEL = ITEMS.register("angel", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> DEMON = ITEMS.register("demon", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
@@ -28,6 +27,7 @@ public class ModItems {
     public static final RegistryObject<Item> TIGER = ITEMS.register("tiger", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> RABU = ITEMS.register("rabu", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
 
+    //dust
     public static final RegistryObject<Item> DRAGONDUST = ITEMS.register("dragondust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> ANGELDUST = ITEMS.register("angeldust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> DEMONDUST = ITEMS.register("demondust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
@@ -35,6 +35,7 @@ public class ModItems {
     public static final RegistryObject<Item> TIGERDUST = ITEMS.register("tigerdust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> RABUDUST = ITEMS.register("rabudust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
 
+    //amulets
     public static final RegistryObject<Item> AMULET = ITEMS.register("amulet", () -> new Amulet(Rarity.COMMON));
     public static final RegistryObject<Item> AMULET_C = ITEMS.register("amulet_c", () -> new Amulet(Rarity.UNCOMMON));
     public static final RegistryObject<Item> AMULET_C2 = ITEMS.register("amulet_c2", () -> new Amulet(Rarity.RARE));
@@ -48,6 +49,11 @@ public class ModItems {
     public static final RegistryObject<Item> BADGE_R = ITEMS.register("badge_r", () -> new Amulet(Rarity.RARE));
     public static final RegistryObject<Item> BADGE_C = ITEMS.register("badge_c", () -> new Amulet(Rarity.RARE));
     public static final RegistryObject<Item> BADGE_T = ITEMS.register("badge_t", () -> new Amulet(Rarity.RARE));
+
+    //weapons
+    //val
+    public static final RegistryObject<Item> SWORD_V = ITEMS.register("sword_v", () -> new NormWeap(8, -3f, Rarity.EPIC, 1200));
+    public static final RegistryObject<Item> SPEAR = ITEMS.register("spear", () -> new ValSpear());
 
 
 

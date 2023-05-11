@@ -13,7 +13,7 @@ public class ModEffects {
 
     public static final RegistryObject<MobEffect> INFEFF = MOB_EFFECTS.register("infeff", () -> new Infinity());
     public static final RegistryObject<MobEffect> SOTD = MOB_EFFECTS.register("sotd", () -> new SotD());
-    public static final RegistryObject<MobEffect> VAL = MOB_EFFECTS.register("val", () -> new Val());
+    public static final RegistryObject<MobEffect> VAL = MOB_EFFECTS.register("val", () -> new ValBuff());
 
     public static void register(IEventBus eventBus){MOB_EFFECTS.register(eventBus);}
 }

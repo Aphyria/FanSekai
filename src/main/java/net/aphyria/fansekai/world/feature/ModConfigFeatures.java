@@ -25,7 +25,7 @@ public class ModConfigFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> DEMON_ORE_NETHER = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.DEMON_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> RAT_ORE_OVER = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RAT_ORE.get().defaultBlockState())));
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.RAT_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> TIGER_ORE_OVER = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TIGER_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> RABU_ORE_OVER = Suppliers.memoize(() -> List.of(
