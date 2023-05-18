@@ -25,7 +25,7 @@ public class ModToolTiers {
                 new ForgeTier(6, 24000, 10f, 6f, 18, ModTags.Blocks.NEEDS_VAL_TOOL, () -> Ingredient.of(ModItems.ANGEL.get())),
                         new ResourceLocation(FanSekai.MODID, "angel"), List.of(Tiers.NETHERITE), List.of(ModToolTiers.CHO_TIER));
         CHO_TIER = TierSortingRegistry.registerTier(
-                new ForgeTier(6, 24000, 10f, 6f, 18, ModTags.Blocks.NEEDS_CHO_TOOL, () -> Ingredient.of(ModItems.DRAGON.get())),
+                new ForgeTier(6, 24000, 10f, 6f, 18, ModTags.Blocks.NEEDS_CHO_TOOL, () -> Ingredient.of(ModItems.JAIDO.get())),
                         new ResourceLocation(FanSekai.MODID, "dragon"), List.of(VAL_TIER), List.of(MOMO_TIER));
         MOMO_TIER = TierSortingRegistry.registerTier(
                 new ForgeTier(6, 24000, 10f, 6f, 18, ModTags.Blocks.NEEDS_MOMO_TOOL, () -> Ingredient.of(ModItems.DEMON.get())),

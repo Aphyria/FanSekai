@@ -14,7 +14,7 @@ public class ModPlacedFeatures {
     public static final DeferredRegister<PlacedFeature> PLACED_FEATURES = DeferredRegister.create(Registry.PLACED_FEATURE_REGISTRY, FanSekai.MODID);
 
     public static final RegistryObject<PlacedFeature> JADE_ORE_PLACED = PLACED_FEATURES.register("jade_ore_placed",
-            ()-> new PlacedFeature(ModConfigFeatures.JADE_ORE.getHolder().get(),
+            ()-> new PlacedFeature(ModConfigFeatures.JAIDO_ORE.getHolder().get(),
                     rareOrePlacement(5, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(5), VerticalAnchor.absolute(20)))));
     public static final RegistryObject<PlacedFeature> ANGEL_ORE_PLACED = PLACED_FEATURES.register("angel_ore_placed",
             ()-> new PlacedFeature(ModConfigFeatures.ANGEL_ORE.getHolder().get(),

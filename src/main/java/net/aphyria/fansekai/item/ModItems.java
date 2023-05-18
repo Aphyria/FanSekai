@@ -20,7 +20,7 @@ public class ModItems {
     public static final RegistryObject<Item> LOGO = ITEMS.register("logo", () -> new Item(new Item.Properties()));
 
     //ingots
-    public static final RegistryObject<Item> DRAGON = ITEMS.register("dragon", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
+    public static final RegistryObject<Item> JAIDO = ITEMS.register("jaido", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> ANGEL = ITEMS.register("angel", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> DEMON = ITEMS.register("demon", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> RAT = ITEMS.register("rat", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
@@ -28,7 +28,7 @@ public class ModItems {
     public static final RegistryObject<Item> RABU = ITEMS.register("rabu", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
 
     //dust
-    public static final RegistryObject<Item> DRAGONDUST = ITEMS.register("dragondust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
+    public static final RegistryObject<Item> JAIDO_DUST = ITEMS.register("jaido_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> ANGELDUST = ITEMS.register("angeldust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> DEMONDUST = ITEMS.register("demondust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> RATDUST = ITEMS.register("ratdust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));

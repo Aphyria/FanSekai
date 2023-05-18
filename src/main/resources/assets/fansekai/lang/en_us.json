@@ -1,8 +1,8 @@
 {
-  "item.fansekai.dragon": "Dragon jade",
+  "item.fansekai.jaido": "Dragon jade",
   "item.fansekai.angel": "Angel soul",
   "item.fansekai.demon": "Hellflame remnant",
-  "item.fansekai.dragondust": "Dragon jade dust",
+  "item.fansekai.jaido_dust": "Dragon jade dust",
   "item.fansekai.angeldust": "Shattered angel souls",
   "item.fansekai.demondust": "Hellflare shard",
   "item.fansekai.amulet": "Golden Amulet",
@@ -17,11 +17,12 @@
   "item.fansekai.amulet_m2": "Hellfire Amulet",
   "item.fansekai.amulet_m3": "Hell's Essence",
   "item.fansekai.badge_r": "Rogue Badge",
-  "block.fansekai.jade_ore": "Jade Ore (unobtainable)",
+  "block.fansekai.jaido_ore": "Jade Ore (unobtainable)",
   "block.fansekai.angel_ore": "Angel Ore (unobtainable)",
   "block.fansekai.demon_ore": "Demon Ore (unobtainable)",
   "block.fansekai.tiger_ore": "Tiger Ore (unobtainable)",
   "block.fansekai.rat_ore": "Rogue Ore (unobtainable)",
+  "block.fansekai.jaido_block": "Block of Jade",
 
   "item.fansekai.sword_v": "Valhallan Sword",
 

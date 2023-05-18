@@ -19,7 +19,7 @@ public class ModConfigFeatures {
     public static final DeferredRegister<ConfiguredFeature<?, ?>> CONFIGURED_FEATURES = DeferredRegister.create(Registry.CONFIGURED_FEATURE_REGISTRY, FanSekai.MODID);
 
     public static final Supplier<List<OreConfiguration.TargetBlockState>> JADE_ORE_OVERWORLD = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.JADE_ORE.get().defaultBlockState())));
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.JAIDO_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> ANGEL_ORE_OVERWORLD = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.ANGEL_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> DEMON_ORE_NETHER = Suppliers.memoize(() -> List.of(
@@ -31,7 +31,7 @@ public class ModConfigFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> RABU_ORE_OVER = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RABU_ORE.get().defaultBlockState())));
 
-    public static final RegistryObject<ConfiguredFeature<?, ?>> JADE_ORE = CONFIGURED_FEATURES.register("jade_ore",
+    public static final RegistryObject<ConfiguredFeature<?, ?>> JAIDO_ORE = CONFIGURED_FEATURES.register("jaido_ore",
             ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(JADE_ORE_OVERWORLD.get(), 8)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> ANGEL_ORE = CONFIGURED_FEATURES.register("angel_ore",
             ()-> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(ANGEL_ORE_OVERWORLD.get(), 12)));
