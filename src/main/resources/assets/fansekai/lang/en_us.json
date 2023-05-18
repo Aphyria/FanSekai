@@ -23,6 +23,11 @@
   "block.fansekai.tiger_ore": "Tiger Ore (unobtainable)",
   "block.fansekai.rat_ore": "Rogue Ore (unobtainable)",
   "block.fansekai.jaido_block": "Block of Jade",
+  "block.fansekai.jaido_cluster": "Jade Cluster",
+  "block.fansekai.jaidostone_block": "Compressed Jade Powder",
+  "block.fansekai.jaido_concrete": "Jade Concrete",
+  "block.fansekai.jaido_concrete_powder": "Jade Concrete Powder",
+  "block.fansekai.jaido_sea_lantern": "Jade Sea Lantern",
 
   "item.fansekai.sword_v": "Valhallan Sword",
 

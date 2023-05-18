@@ -4,7 +4,7 @@ import net.aphyria.fansekai.FanSekai;
 import net.aphyria.fansekai.item.ModItems;
 import net.aphyria.fansekai.item.ModTabs;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,8 +18,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, FanSekai.MODID);
 
-    public static final RegistryObject<Block> JAIDO_ORE = registerBlock("jaido_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(80f)), ModTabs.FANSEKAI_TAB);
+
     public static final RegistryObject<Block> ANGEL_ORE = registerBlock("angel_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(80f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> DEMON_ORE = registerBlock("demon_ore",
@@ -31,8 +30,22 @@ public class ModBlocks {
     public static final RegistryObject<Block> RABU_ORE = registerBlock("rabu_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(50f)), ModTabs.FANSEKAI_TAB);
 
+    //chotto
+
+    public static final RegistryObject<Block> JAIDO_ORE = registerBlock("jaido_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(80f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_BLOCK = registerBlock("jaido_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_CLUSTER = registerBlock("jaido_cluster",
+            () -> new AmethystClusterBlock(6, 4, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDOSTONE_BLOCK = registerBlock("jaidostone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_CONCRETE = registerBlock("jaido_concrete",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_CONCRETE_POWDER = registerBlock("jaido_concrete_powder",
+            () -> new ConcretePowderBlock(JAIDO_CONCRETE.get(), BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE_POWDER)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_SEA_LANTERN = registerBlock("jaido_sea_lantern",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)), ModTabs.FANSEKAI_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

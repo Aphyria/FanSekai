@@ -1,5 +1,6 @@
 package net.aphyria.fansekai;
 
+import com.mojang.blaze3d.platform.ScreenManager;
 import com.mojang.logging.LogUtils;
 import net.aphyria.fansekai.block.ModBlocks;
 import net.aphyria.fansekai.effects.ModEffects;
@@ -7,6 +8,9 @@ import net.aphyria.fansekai.item.ModItems;
 import net.aphyria.fansekai.world.feature.ModConfigFeatures;
 import net.aphyria.fansekai.world.feature.ModPlacedFeatures;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.block.BlockRenderDispatcher;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -56,8 +60,10 @@ public class FanSekai
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("HELLO FROM COMMON SETUP");
-        LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+        event.enqueueWork(() -> {
+           
+
+        });
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
