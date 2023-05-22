@@ -3,6 +3,7 @@ package net.aphyria.fansekai.block;
 import net.aphyria.fansekai.FanSekai;
 import net.aphyria.fansekai.item.ModItems;
 import net.aphyria.fansekai.item.ModTabs;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -46,6 +47,34 @@ public class ModBlocks {
             () -> new ConcretePowderBlock(JAIDO_CONCRETE.get(), BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE_POWDER)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_SEA_LANTERN = registerBlock("jaido_sea_lantern",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_CANDLE = registerBlock("jaido_candle",
+            () -> new CandleBlock(BlockBehaviour.Properties.copy(Blocks.CANDLE)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_CONCRETE_VIVID = registerBlock("jaido_concrete_vivid",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_GLAZED_TERRACOTTA = registerBlock("jaido_glazed_terracotta",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_GLAZED_TERRACOTTA_VIVID = registerBlock("jaido_glazed_terracotta_vivid",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_PACKED_BLOCK = registerBlock("jaido_packed_block",
+            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_PACKED_BLOCK_VIVID = registerBlock("jaido_packed_block_vivid",
+            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_SHULKER_BOX = registerBlock("jaido_shulker_box",
+            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_STAINED_GLASS = registerBlock("jaido_stained_glass",
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_STAINED_GLASS_PANE = registerBlock("jaido_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.CYAN, BlockBehaviour.Properties.copy(Blocks.GLASS_PANE)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_TERRACOTTA = registerBlock("jaido_terracotta",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_TERRACOTTA_VIVID = registerBlock("jaido_terracotta_vivid",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_WOOL = registerBlock("jaido_wool",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_TULIP = registerBlock("jaido_tulip",
+            () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.PINK_TULIP)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_TULIP_POTTED = registerBlock("jaido_tulip_potted",
+            () -> new FlowerPotBlock(JAIDO_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_PINK_TULIP)), ModTabs.FANSEKAI_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
