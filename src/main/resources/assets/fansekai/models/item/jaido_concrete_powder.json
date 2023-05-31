@@ -1,6 +1,3 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "fansekai:block/jaido_concrete_powder"
-  }
+  "parent": "fansekai:block/jaido_concrete_powder"
 }

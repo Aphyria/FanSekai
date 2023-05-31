@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_candle",
+  "textures": {
+    "all": "fansekai:block/jaido_candle_lit",
+    "particle": "fansekai:block/jaido_candle_lit"
+  }
+}

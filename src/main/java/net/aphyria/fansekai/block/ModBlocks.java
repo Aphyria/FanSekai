@@ -72,9 +72,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> JAIDO_WOOL = registerBlock("jaido_wool",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_TULIP = registerBlock("jaido_tulip",
-            () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.PINK_TULIP)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> JAIDO_TULIP_POTTED = registerBlock("jaido_tulip_potted",
-            () -> new FlowerPotBlock(JAIDO_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_PINK_TULIP)), ModTabs.FANSEKAI_TAB);
+            () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.ORANGE_TULIP)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> POTTED_JAIDO_TULIP = registerBlock("potted_jaido_tulip",
+            () -> new FlowerPotBlock(JAIDO_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_ORANGE_TULIP)), null);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
