@@ -13,23 +13,23 @@ import java.util.List;
 public class ModPlacedFeatures {
     public static final DeferredRegister<PlacedFeature> PLACED_FEATURES = DeferredRegister.create(Registry.PLACED_FEATURE_REGISTRY, FanSekai.MODID);
 
-    public static final RegistryObject<PlacedFeature> JADE_ORE_PLACED = PLACED_FEATURES.register("jade_ore_placed",
+    public static final RegistryObject<PlacedFeature> JAIDO_ORE_PLACED = PLACED_FEATURES.register("jaido_ore_placed",
             ()-> new PlacedFeature(ModConfigFeatures.JAIDO_ORE.getHolder().get(),
                     rareOrePlacement(5, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(5), VerticalAnchor.absolute(20)))));
-    public static final RegistryObject<PlacedFeature> ANGEL_ORE_PLACED = PLACED_FEATURES.register("angel_ore_placed",
-            ()-> new PlacedFeature(ModConfigFeatures.ANGEL_ORE.getHolder().get(),
+    public static final RegistryObject<PlacedFeature> HOWLITE_ORE_PLACED = PLACED_FEATURES.register("howlite_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.HOWLITE_ORE.getHolder().get(),
                     rareOrePlacement(6, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(40), VerticalAnchor.absolute(100)))));
-    public static final RegistryObject<PlacedFeature> DEMON_ORE_PLACED = PLACED_FEATURES.register("demon_ore_placed",
-            ()-> new PlacedFeature(ModConfigFeatures.DEMON_ORE.getHolder().get(),
+    public static final RegistryObject<PlacedFeature> HELIOTROPE_ORE_PLACED = PLACED_FEATURES.register("heliotrope_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.HELIOTROPE_ORE.getHolder().get(),
                     rareOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(20), VerticalAnchor.belowTop(20)))));
-    public static final RegistryObject<PlacedFeature> RAT_ORE_PLACED = PLACED_FEATURES.register("rat_ore_placed",
-            ()-> new PlacedFeature(ModConfigFeatures.RAT_ORE.getHolder().get(),
+    public static final RegistryObject<PlacedFeature> TURQUISE_ORE_PLACED = PLACED_FEATURES.register("turquoise_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.TURQUOISE_ORE.getHolder().get(),
                     commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(20)))));
-    public static final RegistryObject<PlacedFeature> TIGER_ORE_PLACED = PLACED_FEATURES.register("tiger_ore_placed",
-            ()-> new PlacedFeature(ModConfigFeatures.TIGER_ORE.getHolder().get(),
+    public static final RegistryObject<PlacedFeature> PSEUDOCROCIDOLITE_ORE_PLACED = PLACED_FEATURES.register("pseudocrocidolite_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.PSEUDOCROCIDOLITE_ORE.getHolder().get(),
                     commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(20)))));
-    public static final RegistryObject<PlacedFeature> RABU_ORE_PLACED = PLACED_FEATURES.register("rabu_ore_placed",
-            ()-> new PlacedFeature(ModConfigFeatures.RABU_ORE.getHolder().get(),
+    public static final RegistryObject<PlacedFeature> RHODONITE_ORE_PLACED = PLACED_FEATURES.register("rhodonite_ore_placed",
+            ()-> new PlacedFeature(ModConfigFeatures.RHODONITE_ORE.getHolder().get(),
                     commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(20)))));
 
 

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_three_candles",
+  "textures": {
+    "all": "fansekai:block/howlite_candle",
+    "particle": "fansekai:block/howlite_candle"
+  }
+}

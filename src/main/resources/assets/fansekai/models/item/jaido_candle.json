@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fansekai:block/jaido_candle"
+    "layer0": "fansekai:item/jaido_candle"
   },
   "render_type": "cutout"
 }

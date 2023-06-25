@@ -1,10 +1,11 @@
 {
   "replace": false,
   "values": [
-    "fansekai:jade_ore",
-    "fansekai:angel_ore",
-    "fansekai:demon_ore",
-    "fansekai:rat_ore",
-    "fansekai:tiger_ore"
+    "fansekai:jaido_ore",
+    "fansekai:howlite_ore",
+    "fansekai:heliotrope_ore",
+    "fansekai:turquoise_ore",
+    "fansekai:pseudocrocidolite_ore",
+    "fansekai:rhodonite_ore"
   ]
 }

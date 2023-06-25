@@ -3,5 +3,5 @@
   "textures": {
     "all": "fansekai:block/jaido_stained_glass"
   },
-  "render_type": "translucent"
+  "render_type": "transparent"
 }
