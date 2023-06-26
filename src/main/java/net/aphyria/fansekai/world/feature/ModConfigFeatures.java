@@ -56,87 +56,81 @@ public class ModConfigFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> JAIDO_GEODE = CONFIGURED_FEATURES.register("jaido_geode",
             () -> new ConfiguredFeature<>(Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(
                     BlockStateProvider.simple(Blocks.AIR),
-                    BlockStateProvider.simple(ModBlocks.JAIDO_PACKED_BLOCK.get()),
-                    BlockStateProvider.simple(ModBlocks.JAIDO_CLUSTER.get()),
                     BlockStateProvider.simple(ModBlocks.JAIDO_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.JAIDO_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.JAIDO_PACKED_BLOCK.get()),
                     BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
-                    List.of(ModBlocks.JAIDO_ORE.get().defaultBlockState()),
+                    List.of(ModBlocks.JAIDO_CLUSTER.get().defaultBlockState()),
                     BlockTags.FEATURES_CANNOT_REPLACE,
                     BlockTags.GEODE_INVALID_BLOCKS),
                     new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
                     new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D, true,
-                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 25, 0.08D, 1
-            )));
+                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 15, 0.06D, 1)));
             public static final RegistryObject<ConfiguredFeature<?, ?>> HOWLITE_GEODE = CONFIGURED_FEATURES.register("howlite_geode",
             () -> new ConfiguredFeature<>(Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(
                     BlockStateProvider.simple(Blocks.AIR),
-                    BlockStateProvider.simple(ModBlocks.HOWLITE_PACKED_BLOCK.get()),
-                    BlockStateProvider.simple(ModBlocks.HOWLITE_CLUSTER.get()),
                     BlockStateProvider.simple(ModBlocks.HOWLITE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.HOWLITE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.HOWLITE_PACKED_BLOCK.get()),
                     BlockStateProvider.simple(Blocks.CALCITE),
-                    List.of(ModBlocks.HOWLITE_ORE.get().defaultBlockState()),
+                    List.of(ModBlocks.HOWLITE_CLUSTER.get().defaultBlockState()),
                     BlockTags.FEATURES_CANNOT_REPLACE,
                     BlockTags.GEODE_INVALID_BLOCKS),
                     new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
                     new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D, true,
-                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 25, 0.08D, 1
-            )));
+                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 15, 0.06D, 1)));
             public static final RegistryObject<ConfiguredFeature<?, ?>> HELIOTROPE_GEODE = CONFIGURED_FEATURES.register("heliotrope_geode",
             () -> new ConfiguredFeature<>(Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(
                     BlockStateProvider.simple(Blocks.AIR),
-                    BlockStateProvider.simple(ModBlocks.HELIOTROPE_PACKED_BLOCK.get()),
-                    BlockStateProvider.simple(ModBlocks.HELIOTROPE_CLUSTER.get()),
                     BlockStateProvider.simple(ModBlocks.HELIOTROPE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.HELIOTROPE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.HELIOTROPE_PACKED_BLOCK.get()),
                     BlockStateProvider.simple(Blocks.POLISHED_BLACKSTONE),
-                    List.of(ModBlocks.HELIOTROPE_ORE.get().defaultBlockState()),
+                    List.of(ModBlocks.HELIOTROPE_CLUSTER.get().defaultBlockState()),
                     BlockTags.FEATURES_CANNOT_REPLACE,
                     BlockTags.GEODE_INVALID_BLOCKS),
                     new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
                     new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D, true,
-                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 25, 0.08D, 1
-            )));
+                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 15, 0.06D, 1)));
             public static final RegistryObject<ConfiguredFeature<?, ?>> TURQUOISE_GEODE = CONFIGURED_FEATURES.register("turquoise_geode",
             () -> new ConfiguredFeature<>(Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(
                     BlockStateProvider.simple(Blocks.AIR),
-                    BlockStateProvider.simple(ModBlocks.TURQUOISE_PACKED_BLOCK.get()),
-                    BlockStateProvider.simple(ModBlocks.TURQUOISE_CLUSTER.get()),
                     BlockStateProvider.simple(ModBlocks.TURQUOISE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.TURQUOISE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.TURQUOISE_PACKED_BLOCK.get()),
                     BlockStateProvider.simple(Blocks.POLISHED_DEEPSLATE),
-                    List.of(ModBlocks.TURQUOISE_ORE.get().defaultBlockState()),
+                    List.of(ModBlocks.TURQUOISE_CLUSTER.get().defaultBlockState()),
                     BlockTags.FEATURES_CANNOT_REPLACE,
                     BlockTags.GEODE_INVALID_BLOCKS),
                     new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
                     new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D, true,
-                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 25, 0.08D, 1
-            )));
+                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 15, 0.08D, 1)));
             public static final RegistryObject<ConfiguredFeature<?, ?>> PSEUDOCROCIDOLITE_GEODE = CONFIGURED_FEATURES.register("pseudocrocidolite_geode",
             () -> new ConfiguredFeature<>(Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(
                     BlockStateProvider.simple(Blocks.AIR),
-                    BlockStateProvider.simple(ModBlocks.PSEUDOCROCIDOLITE_PACKED_BLOCK.get()),
-                    BlockStateProvider.simple(ModBlocks.PSEUDOCROCIDOLITE_CLUSTER.get()),
                     BlockStateProvider.simple(ModBlocks.PSEUDOCROCIDOLITE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.PSEUDOCROCIDOLITE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.PSEUDOCROCIDOLITE_PACKED_BLOCK.get()),
                     BlockStateProvider.simple(Blocks.POLISHED_DEEPSLATE),
-                    List.of(ModBlocks.PSEUDOCROCIDOLITE_ORE.get().defaultBlockState()),
+                    List.of(ModBlocks.PSEUDOCROCIDOLITE_CLUSTER.get().defaultBlockState()),
                     BlockTags.FEATURES_CANNOT_REPLACE,
                     BlockTags.GEODE_INVALID_BLOCKS),
                     new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
                     new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D, true,
-                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 25, 0.08D, 1
-            )));
+                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 15, 0.08D, 1)));
             public static final RegistryObject<ConfiguredFeature<?, ?>> RHODONITE_GEODE = CONFIGURED_FEATURES.register("rhodonite_geode",
             () -> new ConfiguredFeature<>(Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(
                     BlockStateProvider.simple(Blocks.AIR),
-                    BlockStateProvider.simple(ModBlocks.RHODONITE_PACKED_BLOCK.get()),
-                    BlockStateProvider.simple(ModBlocks.RHODONITE_CLUSTER.get()),
                     BlockStateProvider.simple(ModBlocks.RHODONITE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.RHODONITE_PACKED_BLOCK_VIVID.get()),
+                    BlockStateProvider.simple(ModBlocks.RHODONITE_PACKED_BLOCK.get()),
                     BlockStateProvider.simple(Blocks.POLISHED_DEEPSLATE),
-                    List.of(ModBlocks.RHODONITE_ORE.get().defaultBlockState()),
+                    List.of(ModBlocks.RHODONITE_CLUSTER.get().defaultBlockState()),
                     BlockTags.FEATURES_CANNOT_REPLACE,
                     BlockTags.GEODE_INVALID_BLOCKS),
                     new GeodeLayerSettings(1.7D, 1.2D, 2.5D, 3.5D),
                     new GeodeCrackSettings(0.25D, 1.5D, 1), 0.5D, 0.1D, true,
-                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 25, 0.08D, 1
-            )));
+                    UniformInt.of(3, 8), UniformInt.of(2, 6), UniformInt.of(1, 2), -15, 15, 0.08D, 1)));
 
     public static void register(IEventBus eventBus){
         CONFIGURED_FEATURES.register(eventBus);

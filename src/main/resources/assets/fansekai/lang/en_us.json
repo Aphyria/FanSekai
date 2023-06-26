@@ -1,10 +1,39 @@
 {
   "item.fansekai.jaido": "Jade",
-  "item.fansekai.howlite": "Angel soul",
-  "item.fansekai.heliotrope": "Hellflame remnant",
   "item.fansekai.jaido_dust": "Jade dust",
-  "item.fansekai.howlite_dust": "Shattered angel souls",
-  "item.fansekai.heliotrope_dust": "Hellflare shard",
+  "block.fansekai.jaido_ore": "Jade Ore",
+  "block.fansekai.jaido_cluster": "Jade Cluster",
+  "block.fansekai.jaido_compressed_block": "",
+  "block.fansekai.jaido_compressed_block_vivid": "",
+  "block.fansekai.jaido_block": "Block of Jade",
+  "block.fansekai.jaidostone_block": "Compressed Jade Powder",
+  "block.fansekai.jaido_concrete": "Jade Concrete",
+  "block.fansekai.jaido_concrete_powder": "Jade Concrete Powder",
+  "block.fansekai.jaido_sea_lantern": "Jade Sea Lantern",
+
+  "item.fansekai.howlite": "Howlite",
+  "item.fansekai.howlite_dust": "Howlite Dust",
+  "block.fansekai.howlite_ore": "Howlite Ore",
+
+  "item.fansekai.heliotrope": "Heliotrope",
+  "item.fansekai.heliotrope_dust": "Heliotrope shard",
+  "block.fansekai.heliotrope_ore": "Heliotrope Ore",
+
+  "block.fansekai.pseudocrocidolite_ore": "Pseudocrocidolite Ore",
+
+  "block.fansekai.turquoise_ore": "Turquoise Ore",
+
+  "block.fansekai.rhodonite_ore": "Rhodonite Ore",
+
+
+
+
+
+
+
+
+
+
   "item.fansekai.amulet": "Golden Amulet",
   "item.fansekai.amulet_op": "Amulet of Infinity",
   "item.fansekai.amulet_c": "Jade Amulet",
@@ -17,17 +46,6 @@
   "item.fansekai.amulet_m2": "Hellfire Amulet",
   "item.fansekai.amulet_m3": "Hell's Essence",
   "item.fansekai.badge_r": "",
-  "block.fansekai.jaido_ore": "Jade Ore",
-  "block.fansekai.howlite_ore": "Howlite Ore",
-  "block.fansekai.heliotrope_ore": "Heliotrope Ore",
-  "block.fansekai.pseudocrocidolite_ore": "Pseudocrocidolite Ore",
-  "block.fansekai.turquoise_ore": "Turquoise Ore",
-  "block.fansekai.jaido_block": "Block of Jade",
-  "block.fansekai.jaido_cluster": "Jade Cluster",
-  "block.fansekai.jaidostone_block": "Compressed Jade Powder",
-  "block.fansekai.jaido_concrete": "Jade Concrete",
-  "block.fansekai.jaido_concrete_powder": "Jade Concrete Powder",
-  "block.fansekai.jaido_sea_lantern": "Jade Sea Lantern",
 
   "item.fansekai.sword_v": "Valhallan Sword",
 

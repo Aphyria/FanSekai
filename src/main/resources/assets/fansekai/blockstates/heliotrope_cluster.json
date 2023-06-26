@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "fansekai:block/heliotrope_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "fansekai:block/heliotrope_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fansekai:block/heliotrope_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "fansekai:block/heliotrope_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "fansekai:block/heliotrope_cluster"
+    },
+    "facing=west": {
+      "model": "fansekai:block/heliotrope_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

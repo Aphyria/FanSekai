@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fansekai:block/pseudocrocidolite_cluster"
+  },
+  "render_type": "cutout"
+}
