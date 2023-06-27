@@ -1,10 +1,10 @@
 {
   "item.fansekai.jaido": "Jade",
-  "item.fansekai.jaido_dust": "Jade dust",
+  "item.fansekai.jaido_dust": "Jade Dust",
   "block.fansekai.jaido_ore": "Jade Ore",
   "block.fansekai.jaido_cluster": "Jade Cluster",
-  "block.fansekai.jaido_compressed_block": "",
-  "block.fansekai.jaido_compressed_block_vivid": "",
+  "block.fansekai.jaido_compressed_block": "Jade Crystal Block",
+  "block.fansekai.jaido_compressed_block_vivid": "Shiny Jade Crystal Block",
   "block.fansekai.jaido_block": "Block of Jade",
   "block.fansekai.jaidostone_block": "Compressed Jade Powder",
   "block.fansekai.jaido_concrete": "Jade Concrete",
@@ -14,17 +14,37 @@
   "item.fansekai.howlite": "Howlite",
   "item.fansekai.howlite_dust": "Howlite Dust",
   "block.fansekai.howlite_ore": "Howlite Ore",
+  "block.fansekai.howlite_cluster": "Howlite Cluster",
+  "block.fansekai.howlite_compressed_block": "Howlite Crystal Block",
+  "block.fansekai.howlite_compressed_block_vivid": "Shiny Howlite Crystal Block",
 
   "item.fansekai.heliotrope": "Heliotrope",
-  "item.fansekai.heliotrope_dust": "Heliotrope shard",
+  "item.fansekai.heliotrope_dust": "Heliotrope Shard",
   "block.fansekai.heliotrope_ore": "Heliotrope Ore",
+  "block.fansekai.heliotrope_cluster": "Heliotrope Cluster",
+  "block.fansekai.heliotrope_compressed_block": "Heliotrope Crystal Block",
+  "block.fansekai.heliotrope_compressed_block_vivid": "Shiny Heliotrope Crystal Block",
 
+  "item.fansekai.pseudocrocidolite": "Pseudocrocidolite",
+  "item.fansekai.pseudocrocidolite_dust": "Pseudocrocidolite Dust",
   "block.fansekai.pseudocrocidolite_ore": "Pseudocrocidolite Ore",
+  "block.fansekai.pseudocrocidolite_cluster": "Pseudocrocidolite Cluster",
+  "block.fansekai.pseudocrocidolite_compressed_block": "Pseudocrocidolite Crystal Block",
+  "block.fansekai.pseudocrocidolite_compressed_block_vivid": "Shiny Pseudocrocidolite Crystal Block",
 
+  "item.fansekai.turquoise": "Turquoise",
+  "item.fansekai.turquoise_dust": "Turquoise Dust",
   "block.fansekai.turquoise_ore": "Turquoise Ore",
+  "block.fansekai.turquoise_cluster": "Turquoise Cluster",
+  "block.fansekai.turquoise_compressed_block": "Turquoise Crystal Block",
+  "block.fansekai.turquoise_compressed_block_vivid": "Shiny Turquoise Crystal Block",
 
+  "item.fansekai.rhodonite": "Rhodonite",
+  "item.fansekai.rhodonite_dust": "Rhodonite Dust",
   "block.fansekai.rhodonite_ore": "Rhodonite Ore",
-
+  "block.fansekai.rhodonite_cluster": "Rhodonite Cluster",
+  "block.fansekai.rhodonite_compressed_block": "Rhodonite Crystal Block",
+  "block.fansekai.rhodonite_compressed_block_vivid": "Shiny Rhodonite Crystal Block",
 
 
 

@@ -61,8 +61,6 @@ public class FanSekai
     private void commonSetup(final FMLCommonSetupEvent event)
     {
         event.enqueueWork(() -> {
-           
-
         });
     }
 
