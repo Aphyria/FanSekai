@@ -25,15 +25,15 @@ public class ModItems {
     public static final RegistryObject<Item> HELIOTROPE = ITEMS.register("heliotrope", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> TURQUOISE = ITEMS.register("turquoise", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> PSEUDOCROCIDOLITE = ITEMS.register("pseudocrocidolite", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
-    public static final RegistryObject<Item> RABU = ITEMS.register("rabu", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
+    public static final RegistryObject<Item> RHODONITE = ITEMS.register("rhodonite", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
 
     //dust
     public static final RegistryObject<Item> JAIDO_DUST = ITEMS.register("jaido_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> HOWLITE_DUST = ITEMS.register("howlite_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> HELIOTROPE_DUST = ITEMS.register("heliotrope_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
-    public static final RegistryObject<Item> RATDUST = ITEMS.register("ratdust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
+    public static final RegistryObject<Item> TURQUOISE_DUST = ITEMS.register("turquoise_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
     public static final RegistryObject<Item> PSEUDOCROCIDOLITE_DUST = ITEMS.register("pseudocrocidolite_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
-    public static final RegistryObject<Item> RABUDUST = ITEMS.register("rabudust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
+    public static final RegistryObject<Item> RHODONITE_DUST = ITEMS.register("rhodonite_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
 
     //amulets
     public static final RegistryObject<Item> AMULET = ITEMS.register("amulet", () -> new Amulet(Rarity.COMMON));

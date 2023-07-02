@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fansekai:rhodonite_ore"
+  },
+  "result": "fansekai:rhodonite_dust",
+  "experience": 0.5,
+  "cookingtime": 200
+}

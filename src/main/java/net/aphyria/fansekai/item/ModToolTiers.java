@@ -37,7 +37,7 @@ public class ModToolTiers {
                 new ForgeTier(6, 24000, 10f, 6f, 18, ModTags.Blocks.NEEDS_TIG_TOOL, () -> Ingredient.of(ModItems.PSEUDOCROCIDOLITE.get())),
                         new ResourceLocation(FanSekai.MODID, "pseudocrocidolite"), List.of(RAT_TIER), List.of(RAB_TIER));
         RAB_TIER = TierSortingRegistry.registerTier(
-                new ForgeTier(6, 24000, 10f, 6f, 18, ModTags.Blocks.NEEDS_RAB_TOOL, () -> Ingredient.of(ModItems.RABU.get())),
+                new ForgeTier(6, 24000, 10f, 6f, 18, ModTags.Blocks.NEEDS_RAB_TOOL, () -> Ingredient.of(ModItems.RHODONITE.get())),
                         new ResourceLocation(FanSekai.MODID, "rabu"), List.of(TIG_TIER), List.of(INF_TIER));
         INF_TIER = TierSortingRegistry.registerTier(
                 new ForgeTier(200, 240000, 50f, 12f, 18, ModTags.Blocks.NEEDS_INF_TOOL, null),

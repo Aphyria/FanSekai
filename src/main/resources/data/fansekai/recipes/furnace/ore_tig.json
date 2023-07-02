@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fansekai:pseudocrocidolite_ore"
+  },
+  "result": "fansekai:pseudocrocidolite_dust",
+  "experience": 0.5,
+  "cookingtime": 200
+}
