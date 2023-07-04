@@ -122,6 +122,8 @@ public class ModBlocks {
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_PACKED_BLOCK_VIVID = registerBlock("heliotrope_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> HELIOTROPESTONE_BLOCK = registerBlock("heliotropestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
     //rat
 
@@ -133,6 +135,8 @@ public class ModBlocks {
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> TURQUOISE_PACKED_BLOCK_VIVID = registerBlock("turquoise_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> TURQUOISESTONE_BLOCK = registerBlock("turquoisestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
     //tiger
 
@@ -144,6 +148,8 @@ public class ModBlocks {
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_PACKED_BLOCK_VIVID = registerBlock("pseudocrocidolite_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> PSEUDOCROCIDOLITESTONE_BLOCK = registerBlock("pseudocrocidolitestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
     //rabu
 
@@ -155,6 +161,8 @@ public class ModBlocks {
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> RHODONITE_PACKED_BLOCK_VIVID = registerBlock("rhodonite_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> RHODONITESTONE_BLOCK = registerBlock("rhodonitestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

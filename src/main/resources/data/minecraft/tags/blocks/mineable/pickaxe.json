@@ -6,31 +6,37 @@
     "fansekai:jaido_cluster",
     "fansekai:jaido_packed_block",
     "fansekai:jaido_packed_block_vivid",
+    "fansekai:jaidostone_block",
 
     "fansekai:howlite_ore",
     "fansekai:howlite_block",
     "fansekai:howlite_cluster",
     "fansekai:howlite_packed_block",
     "fansekai:howlite_packed_block_vivid",
+    "fansekai:howlitestone_block",
 
     "fansekai:heliotrope_ore",
     "fansekai:heliotrope_cluster",
     "fansekai:heliotrope_packed_block",
     "fansekai:heliotrope_packed_block_vivid",
+    "fansekai:heliotropestone_block",
 
     "fansekai:turquoise_ore",
     "fansekai:turquoise_cluster",
     "fansekai:turquoise_packed_block",
     "fansekai:turquoise_packed_block_vivid",
+    "fansekai:turquoisestone_block",
 
     "fansekai:pseudocrocidolite_ore",
     "fansekai:pseudocrocidolite_cluster",
     "fansekai:pseudocrocidolite_packed_block",
     "fansekai:pseudocrocidolite_packed_block_vivid",
+    "fansekai:pseudocrocidolitestone_block",
 
     "fansekai:rhodonite_ore",
     "fansekai:rhodonite_cluster",
     "fansekai:rhodonite_packed_block",
-    "fansekai:rhodonite_packed_block_vivid"
+    "fansekai:rhodonite_packed_block_vivid",
+    "fansekai:rhodonitestone_block"
   ]
 }

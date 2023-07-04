@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fansekai:jaidostone_block",
+
+    "fansekai:howlitestone_block",
+
+    "fansekai:heliotropestone_block",
+
+    "fansekai:turquoisestone_block",
+
+    "fansekai:pseudocrocidolitestone_block",
+
+    "fansekai:rhodonitestone_block"
+  ]
+}

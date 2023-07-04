@@ -36,7 +36,7 @@ public class ModItems {
     public static final RegistryObject<Item> RHODONITE_DUST = ITEMS.register("rhodonite_dust", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
 
     //amulets
-    public static final RegistryObject<Item> AMULET = ITEMS.register("amulet", () -> new Amulet(Rarity.COMMON));
+/**    public static final RegistryObject<Item> AMULET = ITEMS.register("amulet", () -> new Amulet(Rarity.COMMON));
     public static final RegistryObject<Item> AMULET_C = ITEMS.register("amulet_c", () -> new Amulet(Rarity.UNCOMMON));
     public static final RegistryObject<Item> AMULET_C2 = ITEMS.register("amulet_c2", () -> new Amulet(Rarity.RARE));
     public static final RegistryObject<Item> AMULET_C3 = ITEMS.register("amulet_c3", () -> new Amulet(Rarity.EPIC));
@@ -54,7 +54,7 @@ public class ModItems {
     //val
     public static final RegistryObject<Item> SWORD_V = ITEMS.register("sword_v", () -> new NormWeap(8, -3f, Rarity.EPIC, 1200));
     public static final RegistryObject<Item> SPEAR = ITEMS.register("spear", () -> new ValSpear());
-
+**/
 
 
     //Aphy stuffs
