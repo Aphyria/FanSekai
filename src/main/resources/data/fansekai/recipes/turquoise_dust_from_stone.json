@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:turquoisestone_block"
+    }
+  ],
+  "result": {
+    "item": "fansekai:turquoise_dust",
+    "count": 3
+  }
+}

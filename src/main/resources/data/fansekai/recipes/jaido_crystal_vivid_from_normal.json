@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "fansekai:jaido_packed_block"
+    }
+  ],
+  "result": {
+    "item": "fansekai:jaido_packed_block_vivid"
+  }
+}

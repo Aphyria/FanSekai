@@ -3,12 +3,14 @@
   "key": {
     "#": {
       "item": "fansekai:howlite_dust"
+    },
+    "key": {
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "#x"
   ],
   "result": {
     "item": "fansekai:howlitestone_block"

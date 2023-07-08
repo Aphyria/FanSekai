@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
+  "experience": 0.5,
+  "cookingtime": 300,
   "ingredient": {
     "item": "fansekai:howlite_ore"
   },
-  "result": "fansekai:howlite_dust",
-  "experience": 0.5,
-  "cookingtime": 200
+  "result": "fansekai:howlite_dust"
 }

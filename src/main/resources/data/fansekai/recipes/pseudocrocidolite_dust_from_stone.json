@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:pseudocrocidolitestone_block"
+    }
+  ],
+  "result": {
+    "item": "fansekai:pseudocrocidolite_dust",
+    "count": 3
+  }
+}

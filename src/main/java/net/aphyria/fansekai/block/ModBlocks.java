@@ -48,8 +48,8 @@ public class ModBlocks {
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_PACKED_BLOCK_VIVID = registerBlock("jaido_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> JAIDO_SHULKER_BOX = registerBlock("jaido_shulker_box",
-            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
+//    public static final RegistryObject<Block> JAIDO_SHULKER_BOX = registerBlock("jaido_shulker_box",
+//            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_STAINED_GLASS = registerBlock("jaido_stained_glass",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_STAINED_GLASS_PANE = registerBlock("jaido_stained_glass_pane",
@@ -85,24 +85,24 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_CANDLE = registerBlock("howlite_candle",
             () -> new CandleBlock(BlockBehaviour.Properties.copy(Blocks.CANDLE)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> HOWLITE_CONCRETE_VIVID = registerBlock("howlite_concrete_vivid",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), ModTabs.FANSEKAI_TAB);
+//    public static final RegistryObject<Block> HOWLITE_CONCRETE_VIVID = registerBlock("howlite_concrete_vivid",
+//            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_GLAZED_TERRACOTTA = registerBlock("howlite_glazed_terracotta",
             () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> HOWLITE_GLAZED_TERRACOTTA_VIVID = registerBlock("howlite_glazed_terracotta_vivid",
-            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
+//    public static final RegistryObject<Block> HOWLITE_GLAZED_TERRACOTTA_VIVID = registerBlock("howlite_glazed_terracotta_vivid",
+//            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_PACKED_BLOCK = registerBlock("howlite_packed_block",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_PACKED_BLOCK_VIVID = registerBlock("howlite_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> HOWLITE_SHULKER_BOX = registerBlock("howlite_shulker_box",
-            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
+//    public static final RegistryObject<Block> HOWLITE_SHULKER_BOX = registerBlock("howlite_shulker_box",
+//            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_STAINED_GLASS = registerBlock("howlite_stained_glass",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_STAINED_GLASS_PANE = registerBlock("howlite_stained_glass_pane",
             () -> new StainedGlassPaneBlock(DyeColor.CYAN, BlockBehaviour.Properties.copy(Blocks.GLASS_PANE)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> HOWLITE_TERRACOTTA = registerBlock("howlite_terracotta",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
+//    public static final RegistryObject<Block> HOWLITE_TERRACOTTA = registerBlock("howlite_terracotta",
+//            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_TERRACOTTA_VIVID = registerBlock("howlite_terracotta_vivid",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_WOOL = registerBlock("howlite_wool",
@@ -116,53 +116,61 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> HELIOTROPE_ORE = registerBlock("heliotrope_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(65f)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> HELIOTROPE_BLOCK = registerBlock("heliotrope_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_CLUSTER = registerBlock("heliotrope_cluster",
             () -> new AmethystClusterBlock(6, 4, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> HELIOTROPESTONE_BLOCK = registerBlock("heliotropestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_PACKED_BLOCK = registerBlock("heliotrope_packed_block",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_PACKED_BLOCK_VIVID = registerBlock("heliotrope_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> HELIOTROPESTONE_BLOCK = registerBlock("heliotropestone_block",
-            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
     //rat
 
     public static final RegistryObject<Block> TURQUOISE_ORE = registerBlock("turquoise_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(50f)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> TURQUOISE_BLOCK = registerBlock("turquoise_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> TURQUOISE_CLUSTER = registerBlock("turquoise_cluster",
             () -> new AmethystClusterBlock(6, 4, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> TURQUOISESTONE_BLOCK = registerBlock("turquoisestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> TURQUOISE_PACKED_BLOCK = registerBlock("turquoise_packed_block",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> TURQUOISE_PACKED_BLOCK_VIVID = registerBlock("turquoise_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> TURQUOISESTONE_BLOCK = registerBlock("turquoisestone_block",
-            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
     //tiger
 
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_ORE = registerBlock("pseudocrocidolite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(50f)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> PSEUDOCROCIDOLITE_BLOCK = registerBlock("pseudocrocidolite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_CLUSTER = registerBlock("pseudocrocidolite_cluster",
             () -> new AmethystClusterBlock(6, 4, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> PSEUDOCROCIDOLITESTONE_BLOCK = registerBlock("pseudocrocidolitestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_PACKED_BLOCK = registerBlock("pseudocrocidolite_packed_block",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_PACKED_BLOCK_VIVID = registerBlock("pseudocrocidolite_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> PSEUDOCROCIDOLITESTONE_BLOCK = registerBlock("pseudocrocidolitestone_block",
-            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
     //rabu
 
     public static final RegistryObject<Block> RHODONITE_ORE = registerBlock("rhodonite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(50f)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> RHODONITE_BLOCK = registerBlock("rhodonite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> RHODONITE_CLUSTER = registerBlock("rhodonite_cluster",
             () -> new AmethystClusterBlock(6, 4, BlockBehaviour.Properties.copy(Blocks.AMETHYST_CLUSTER)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> RHODONITESTONE_BLOCK = registerBlock("rhodonitestone_block",
+            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> RHODONITE_PACKED_BLOCK = registerBlock("rhodonite_packed_block",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> RHODONITE_PACKED_BLOCK_VIVID = registerBlock("rhodonite_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
-    public static final RegistryObject<Block> RHODONITESTONE_BLOCK = registerBlock("rhodonitestone_block",
-            () -> new PoweredBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)), ModTabs.FANSEKAI_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

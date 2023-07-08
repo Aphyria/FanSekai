@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "fansekai:heliotrope_dust"
+    },
+    "x": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "##",
+    "#x"
+  ],
+  "result": {
+    "item": "fansekai:heliotrope_packed_block_vivid"
+  }
+}

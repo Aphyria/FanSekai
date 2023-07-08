@@ -25,10 +25,12 @@
                 }
               ],
               "name": "fansekai:pseudocrocidolite_cluster"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:pseudocrocidolite_dust"
             }
-          ],
-          "type": "minecraft:item",
-          "name": "fansekai:pseudocrocidolite_dust"
+          ]
         }
       ],
       "rolls": 1.0

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:heliotrope_dust"
+    },
+    {
+      "item": "fansekai:heliotrope_packed_block_vivid"
+    }
+  ],
+  "result": {
+    "item": "fansekai:heliotrope_packed_block"
+  }
+}

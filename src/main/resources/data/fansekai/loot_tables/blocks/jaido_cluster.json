@@ -25,10 +25,12 @@
                 }
               ],
               "name": "fansekai:jaido_cluster"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:jaido_dust"
             }
-          ],
-          "type": "minecraft:item",
-          "name": "fansekai:jaido_dust"
+          ]
         }
       ],
       "rolls": 1.0

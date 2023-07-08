@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:heliotropestone_block"
+    }
+  ],
+  "result": {
+    "item": "fansekai:heliotrope_dust",
+    "count": 3
+  }
+}

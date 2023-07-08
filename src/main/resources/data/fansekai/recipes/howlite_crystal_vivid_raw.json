@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "fansekai:howlite_dust"
+    },
+    "x": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "##",
+    "#x"
+  ],
+  "result": {
+    "item": "fansekai:howlite_packed_block_vivid"
+  }
+}

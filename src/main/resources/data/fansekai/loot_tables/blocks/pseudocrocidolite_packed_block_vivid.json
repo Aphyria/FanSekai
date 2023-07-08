@@ -5,8 +5,32 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "fansekai:pseudocrocidolite_packed_block_vivid"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "fansekai:pseudocrocidolite_packed_block_vivid"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:pseudocrocidolite_dust"
+            }
+          ]
         }
       ],
       "rolls": 1.0

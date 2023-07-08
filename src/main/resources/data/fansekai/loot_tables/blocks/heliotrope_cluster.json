@@ -25,10 +25,12 @@
                 }
               ],
               "name": "fansekai:heliotrope_cluster"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:heliotrope_dust"
             }
-          ],
-          "type": "minecraft:item",
-          "name": "fansekai:heliotrope_dust"
+          ]
         }
       ],
       "rolls": 1.0

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:rhodonite_dust"
+    },
+    {
+      "item": "fansekai:rhodonite_packed_block_vivid"
+    }
+  ],
+  "result": {
+    "item": "fansekai:rhodonite_packed_block"
+  }
+}

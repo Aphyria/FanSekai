@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
+  "experience": 0.5,
+  "cookingtime": 300,
   "ingredient": {
     "item": "fansekai:heliotrope_ore"
   },
-  "result": "fansekai:heliotrope_dust",
-  "experience": 0.5,
-  "cookingtime": 200
+  "result": "fansekai:heliotrope_dust"
 }

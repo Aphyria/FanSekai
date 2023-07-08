@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:jaido_dust"
+    },
+    {
+      "item": "fansekai:jaido_packed_block_vivid"
+    }
+  ],
+  "result": {
+    "item": "fansekai:jaido_packed_block"
+  }
+}

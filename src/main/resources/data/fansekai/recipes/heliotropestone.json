@@ -3,12 +3,14 @@
   "key": {
     "#": {
       "item": "fansekai:heliotrope_dust"
+    },
+    "x": {
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "#x"
   ],
   "result": {
     "item": "fansekai:heliotropestone_block"

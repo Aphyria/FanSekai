@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": {
-      "item": "fansekai:jaido_dust"
+  "#": {
+    "item": "fansekai:jaido_dust"
+  }
+},
+  "key": {
+    "x": {
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "#x"
   ],
   "result": {
     "item": "fansekai:jaidostone_block"

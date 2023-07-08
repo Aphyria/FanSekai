@@ -5,8 +5,32 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "fansekai:howlite_packed_block"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "fansekai:howlite_packed_block"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:howlite_dust"
+            }
+          ]
         }
       ],
       "rolls": 1.0

@@ -25,10 +25,12 @@
                 }
               ],
               "name": "fansekai:howlite_cluster"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:howlite_dust"
             }
-          ],
-          "type": "minecraft:item",
-          "name": "fansekai:howlite_dust"
+          ]
         }
       ],
       "rolls": 1.0

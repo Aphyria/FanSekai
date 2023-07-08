@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:howlitestone_block"
+    }
+  ],
+  "result": {
+    "item": "fansekai:howlite_dust",
+    "count": 3
+  }
+}

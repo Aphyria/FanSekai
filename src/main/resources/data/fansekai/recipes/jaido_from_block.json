@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:jaido_block"
+    }
+  ],
+  "result": {
+    "item": "fansekai:jaido",
+    "count": 9
+  }
+}

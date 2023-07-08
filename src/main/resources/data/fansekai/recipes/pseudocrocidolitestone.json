@@ -3,12 +3,14 @@
   "key": {
     "#": {
       "item": "fansekai:pseudocrocidolite_dust"
+    },
+    "x": {
+      "item": "minecraft:redstone"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "#x"
   ],
   "result": {
     "item": "fansekai:pseudocrocidolitestone_block"

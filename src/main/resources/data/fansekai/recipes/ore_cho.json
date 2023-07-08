@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
+  "cookingtime": 300,
+  "experience": 0.5,
   "ingredient": {
     "item": "fansekai:jaido_ore"
   },
-  "result": "fansekai:jaido_dust",
-  "experience": 0.5,
-  "cookingtime": 200
+  "result": "fansekai:jaido_dust"
 }

@@ -62,7 +62,7 @@ public class ModItems {
     public static final RegistryObject<Item> AMULET_OP = ITEMS.register("amulet_op", () -> new OPAmulet());
     public static final RegistryObject<Item> YUKATA_OP = ITEMS.register("yukata_op", () -> new Yukata());
     public static final RegistryObject<Item> KATANA_OP = ITEMS.register("katana_op", () -> new AphyKatana());
-    public static final RegistryObject<Item> SCYTHE_OP = ITEMS.register("scythe_op", () -> new AphyKatana()); //change class
+//    public static final RegistryObject<Item> SCYTHE_OP = ITEMS.register("scythe_op", () -> new AphyKatana()); //change class
 
 
 

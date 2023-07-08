@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:turquoise_dust"
+    },
+    {
+      "item": "fansekai:turquoise_packed_block_vivid"
+    }
+  ],
+  "result": {
+    "item": "fansekai:turquoise_packed_block"
+  }
+}

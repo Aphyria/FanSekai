@@ -25,10 +25,12 @@
                 }
               ],
               "name": "fansekai:turquoise_cluster"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:turquoise_dust"
             }
-          ],
-          "type": "minecraft:item",
-          "name": "fansekai:turquoise_dust"
+          ]
         }
       ],
       "rolls": 1.0

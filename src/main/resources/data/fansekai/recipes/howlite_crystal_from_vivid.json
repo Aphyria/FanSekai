@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:howlite_dust"
+    },
+    {
+      "item": "fansekai:howlite_packed_block_vivid"
+    }
+  ],
+  "result": {
+    "item": "fansekai:howlite_packed_block"
+  }
+}

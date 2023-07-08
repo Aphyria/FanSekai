@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fansekai:pseudocrocidolite_dust"
+    },
+    {
+      "item": "fansekai:pseudocrocidolite_packed_block_vivid"
+    }
+  ],
+  "result": {
+    "item": "fansekai:pseudocrocidolite_packed_block"
+  }
+}

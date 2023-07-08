@@ -25,10 +25,12 @@
                 }
               ],
               "name": "fansekai:rhodonite_cluster"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fansekai:rhodonite_dust"
             }
-          ],
-          "type": "minecraft:item",
-          "name": "fansekai:rhodonite_dust"
+          ]
         }
       ],
       "rolls": 1.0
