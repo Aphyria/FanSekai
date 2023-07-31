@@ -3,12 +3,9 @@ package net.aphyria.fansekai.item;
 import net.aphyria.fansekai.FanSekai;
 import net.aphyria.fansekai.customclass.aphy.AphyKatana;
 import net.aphyria.fansekai.customclass.aphy.OPAmulet;
-import net.aphyria.fansekai.customclass.aphy.Yukata;
-import net.aphyria.fansekai.customclass.items.Amulet;
-import net.aphyria.fansekai.customclass.items.NormWeap;
-import net.aphyria.fansekai.customclass.items.ValSpear;
+import net.aphyria.fansekai.customclass.aphy.AphyKimono;
+import net.aphyria.fansekai.customclass.items.Chooser;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,8 +13,6 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS= DeferredRegister.create(ForgeRegistries.ITEMS, FanSekai.MODID);
-
-    public static final RegistryObject<Item> LOGO = ITEMS.register("logo", () -> new Item(new Item.Properties()));
 
     //ingots
     public static final RegistryObject<Item> JAIDO = ITEMS.register("jaido", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
@@ -57,10 +52,18 @@ public class ModItems {
 **/
 
 
+    public static final RegistryObject<Item> CHOOSER_C = ITEMS.register("chooser_c", () -> new Chooser(1));
+    public static final RegistryObject<Item> CHOOSER_V = ITEMS.register("chooser_v", () -> new Chooser(2));
+    public static final RegistryObject<Item> CHOOSER_M = ITEMS.register("chooser_m", () -> new Chooser(3));
+    public static final RegistryObject<Item> CHOOSER_R = ITEMS.register("chooser_r", () -> new Chooser(4));
+    public static final RegistryObject<Item> CHOOSER_T = ITEMS.register("chooser_t", () -> new Chooser(5));
+    public static final RegistryObject<Item> CHOOSER_B = ITEMS.register("chooser_b", () -> new Chooser(6));
+
+
     //Aphy stuffs
 
     public static final RegistryObject<Item> AMULET_OP = ITEMS.register("amulet_op", () -> new OPAmulet());
-    public static final RegistryObject<Item> YUKATA_OP = ITEMS.register("yukata_op", () -> new Yukata());
+    public static final RegistryObject<Item> APHYKIMONO = ITEMS.register("aphykimono", () -> new AphyKimono());
     public static final RegistryObject<Item> KATANA_OP = ITEMS.register("katana_op", () -> new AphyKatana());
 //    public static final RegistryObject<Item> SCYTHE_OP = ITEMS.register("scythe_op", () -> new AphyKatana()); //change class
 

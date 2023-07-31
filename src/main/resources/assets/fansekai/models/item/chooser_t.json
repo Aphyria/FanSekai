@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fansekai:item/pseudocrocidolite_blaze_rod"
+  }
+}

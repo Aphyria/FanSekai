@@ -1,5 +1,6 @@
 package net.aphyria.fansekai.customclass.aphy;
 
+import net.aphyria.fansekai.clans.PlayerClansProvider;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
@@ -27,11 +28,10 @@ public class OPAmulet extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         if (!level.isClientSide() && hand == InteractionHand.MAIN_HAND){
-            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 300));
-            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000, 300));
-            player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 6000, 5));
-            player.getCooldowns().addCooldown(this, 10);
-            Minecraft.getInstance().player.sendSystemMessage(Component.literal("Aphyria's Amulet resonates with the earth..."));
+            player.getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(clan -> {
+                clan.setClan(7);
+            });
+            Minecraft.getInstance().player.sendSystemMessage(Component.literal("Aphyria's Amulet resonates with the earth...").withStyle(ChatFormatting.BOLD, ChatFormatting.DARK_RED));
         }
         return super.use(level, player, hand);
     }

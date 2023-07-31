@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "fansekai:item/amulet_op"
+    "layer0": "fansekai:item/howlite_blaze_rod"
   }
 }
