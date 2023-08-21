@@ -20,6 +20,6 @@ public class ClanScreen extends Screen {
 
     @Override
     public boolean shouldCloseOnEsc() {
-        return false;
+        return true;
     }
 }

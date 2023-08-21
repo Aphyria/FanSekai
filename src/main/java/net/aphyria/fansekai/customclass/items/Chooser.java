@@ -35,10 +35,10 @@ public class Chooser extends Item {
             }
             if (level.isClientSide){
                 switch (helpme){
-                    case 1 -> player.sendSystemMessage(Component.literal("Welcome to the FDF!").withStyle(ChatFormatting.DARK_AQUA));
-                    case 2 -> player.sendSystemMessage(Component.literal("Welcome to the Army of Valhalla!").withStyle(ChatFormatting.YELLOW));
-                    case 3 -> player.sendSystemMessage(Component.literal("Welcome to the Army of Hell!").withStyle(ChatFormatting.DARK_RED));
-                    case 4 -> player.sendSystemMessage(Component.literal("Placeholder for rat.").withStyle(ChatFormatting.AQUA));
+                    case 1 -> player.sendSystemMessage(Component.literal("You feel a sudden lust for gold.").withStyle(ChatFormatting.DARK_AQUA));
+                    case 2 -> player.sendSystemMessage(Component.literal("Your conquest to Valhalla has begun!").withStyle(ChatFormatting.YELLOW));
+                    case 3 -> player.sendSystemMessage(Component.literal("You feel the fiery pits of hell draw closer.").withStyle(ChatFormatting.DARK_RED));
+                    case 4 -> player.sendSystemMessage(Component.literal("An insatiable hunger for cheese fills you.").withStyle(ChatFormatting.AQUA));
                     case 5 -> player.sendSystemMessage(Component.literal("The Tiger within you Roars!").withStyle(ChatFormatting.GOLD));
                     case 6 -> player.sendSystemMessage(Component.literal("Your Heart pounds loudly!").withStyle(ChatFormatting.RED));
                     case 7 -> player.sendSystemMessage(Component.literal("You feel your veins pulsing with raw magic...").withStyle(ChatFormatting.BLACK));

@@ -1,6 +1,7 @@
 package net.aphyria.fansekai.block;
 
 import net.aphyria.fansekai.FanSekai;
+import net.aphyria.fansekai.customclass.blocks.Ore;
 import net.aphyria.fansekai.item.ModItems;
 import net.aphyria.fansekai.item.ModTabs;
 import net.minecraft.world.effect.MobEffect;
@@ -23,7 +24,7 @@ public class ModBlocks {
     //chotto
 
     public static final RegistryObject<Block> JAIDO_ORE = registerBlock("jaido_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(80f)), ModTabs.FANSEKAI_TAB);
+            () -> new Ore(4718587), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_BLOCK = registerBlock("jaido_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_CLUSTER = registerBlock("jaido_cluster",
@@ -70,7 +71,7 @@ public class ModBlocks {
     //val
 
     public static final RegistryObject<Block> HOWLITE_ORE = registerBlock("howlite_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(80f)), ModTabs.FANSEKAI_TAB);
+            () -> new Ore(9756670), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_BLOCK = registerBlock("howlite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_CLUSTER = registerBlock("howlite_cluster",
@@ -115,7 +116,7 @@ public class ModBlocks {
     //momo
 
     public static final RegistryObject<Block> HELIOTROPE_ORE = registerBlock("heliotrope_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(65f)), ModTabs.FANSEKAI_TAB);
+            () -> new Ore(16129851), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_BLOCK = registerBlock("heliotrope_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_CLUSTER = registerBlock("heliotrope_cluster",
@@ -130,7 +131,7 @@ public class ModBlocks {
     //rat
 
     public static final RegistryObject<Block> TURQUOISE_ORE = registerBlock("turquoise_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(50f)), ModTabs.FANSEKAI_TAB);
+            () -> new Ore(9167569), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> TURQUOISE_BLOCK = registerBlock("turquoise_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> TURQUOISE_CLUSTER = registerBlock("turquoise_cluster",
@@ -145,7 +146,7 @@ public class ModBlocks {
     //tiger
 
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_ORE = registerBlock("pseudocrocidolite_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(50f)), ModTabs.FANSEKAI_TAB);
+            () -> new Ore(16750336), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_BLOCK = registerBlock("pseudocrocidolite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_CLUSTER = registerBlock("pseudocrocidolite_cluster",
@@ -160,7 +161,7 @@ public class ModBlocks {
     //rabu
 
     public static final RegistryObject<Block> RHODONITE_ORE = registerBlock("rhodonite_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).explosionResistance(100f).strength(50f)), ModTabs.FANSEKAI_TAB);
+            () -> new Ore(9167569), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> RHODONITE_BLOCK = registerBlock("rhodonite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).explosionResistance(80f).strength(100f)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> RHODONITE_CLUSTER = registerBlock("rhodonite_cluster",

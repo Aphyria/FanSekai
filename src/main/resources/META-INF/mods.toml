@@ -21,7 +21,7 @@ modId="fansekai" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="0.1.0" #mandatory
  # A display name for the mod
-displayName="FanSekai: beyond worlds" #mandatory
+displayName="FanSekai: Beyond Worlds" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -29,7 +29,7 @@ displayName="FanSekai: beyond worlds" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Forge documentation </3" #optional
 # A text field displayed in the mod UI
 authors="Aphy~" #optional
 # Display Test controls the display for your mod in the server connection screen
