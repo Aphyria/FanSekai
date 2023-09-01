@@ -4,6 +4,7 @@ import net.aphyria.fansekai.FanSekai;
 import net.aphyria.fansekai.customclass.aphy.AphyKatana;
 import net.aphyria.fansekai.customclass.aphy.OPAmulet;
 import net.aphyria.fansekai.customclass.aphy.AphyKimono;
+import net.aphyria.fansekai.customclass.choosers.*;
 import net.aphyria.fansekai.customclass.items.Chooser;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -52,12 +53,12 @@ public class ModItems {
 **/
 
 
-    public static final RegistryObject<Item> CHOOSER_C = ITEMS.register("chooser_c", () -> new Chooser(1));
-    public static final RegistryObject<Item> CHOOSER_V = ITEMS.register("chooser_v", () -> new Chooser(2));
-    public static final RegistryObject<Item> CHOOSER_M = ITEMS.register("chooser_m", () -> new Chooser(3));
-    public static final RegistryObject<Item> CHOOSER_R = ITEMS.register("chooser_r", () -> new Chooser(4));
-    public static final RegistryObject<Item> CHOOSER_T = ITEMS.register("chooser_t", () -> new Chooser(5));
-    public static final RegistryObject<Item> CHOOSER_B = ITEMS.register("chooser_b", () -> new Chooser(6));
+    public static final RegistryObject<Item> CHOOSER_C = ITEMS.register("chooser_c", () -> new Dragons());
+    public static final RegistryObject<Item> CHOOSER_V = ITEMS.register("chooser_v", () -> new Warriors());
+    public static final RegistryObject<Item> CHOOSER_M = ITEMS.register("chooser_m", () -> new Darkness());
+    public static final RegistryObject<Item> CHOOSER_R = ITEMS.register("chooser_r", () -> new Mayhem());
+    public static final RegistryObject<Item> CHOOSER_T = ITEMS.register("chooser_t", () -> new Hunters());
+    public static final RegistryObject<Item> CHOOSER_B = ITEMS.register("chooser_b", () -> new Water());
 
 
     //Aphy stuffs

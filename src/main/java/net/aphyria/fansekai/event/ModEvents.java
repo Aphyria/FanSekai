@@ -4,6 +4,7 @@ package net.aphyria.fansekai.event;
 import net.aphyria.fansekai.FanSekai;
 import net.aphyria.fansekai.clans.PlayerClan;
 import net.aphyria.fansekai.clans.PlayerClansProvider;
+import net.aphyria.fansekai.item.ModItems;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffect;
@@ -11,14 +12,20 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.vehicle.Minecart;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.event.RegisterGameTestsEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fml.LogicalSide;
 import net.minecraftforge.fml.common.Mod;
+
+import java.util.function.BiPredicate;
 
 @Mod.EventBusSubscriber(modid = FanSekai.MODID)
 public class ModEvents {
@@ -34,9 +41,7 @@ public class ModEvents {
     public static void onPlayerCloned(PlayerEvent.Clone event){
         if (event.isWasDeath()){
             event.getOriginal().getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(oldStore ->
-            {
-                event.getOriginal().getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(newStore ->{ newStore.copyFrom(oldStore); });
-            });
+                    event.getOriginal().getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(newStore -> newStore.copyFrom(oldStore)));
         }
     }
     @SubscribeEvent
@@ -47,33 +52,47 @@ public class ModEvents {
     public static void onPlayerTick(TickEvent.PlayerTickEvent event){
         if (event.side == LogicalSide.SERVER){
             event.player.getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(clan -> {
-                switch (clan.getClan()){
-                    case 1:{
-                        event.player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 1, 2));
+                if (clan.getClan() == 1){
+                    event.player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED));
+                    if (event.player.getOffhandItem().is(ModItems.JAIDO.get())){
+                        event.player.addEffect(new MobEffectInstance(MobEffects.LUCK));
                     }
-                    case 2:{
-                        event.player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1, 3));
-                        event.player.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING));
+                }
+                if (clan.getClan() == 2){
+                    event.player.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING));
+                    if (event.player.getOffhandItem().is(ModItems.HOWLITE.get())){
+                        event.player.addEffect(new MobEffectInstance(MobEffects.JUMP));
                     }
-                    case 3:{
-                        event.player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE));
+                }
+                if (clan.getClan() == 3){
+                    event.player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE));
+                    if (event.player.isInLava() && event.player.getOffhandItem().is(ModItems.HELIOTROPE.get())){
+                        event.player.heal(0.8f);
                     }
-                    case 4:{
-                        if (event.player.getHealth() > event.player.getMaxHealth()/2) event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST));
-                        else event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE));
+                }
+                if (clan.getClan() == 4){
+                    event.player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED));
+                    if (event.player.getOffhandItem().is(ModItems.TURQUOISE.get())){
+                        event.player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 11));
                     }
-                    case 5:{
-                        event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1, 2));
+                }
+                if (clan.getClan() == 5){
+                    event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST));
+                    if (event.player.getOffhandItem().is(ModItems.PSEUDOCROCIDOLITE.get())){
+                        event.player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED));
                     }
-                    case 6:{
-                        event.player.addEffect(new MobEffectInstance(MobEffects.REGENERATION));
+                }
+                if (clan.getClan() == 6){
+                    event.player.addEffect(new MobEffectInstance(MobEffects.REGENERATION));
+                    if (event.player.isInWater() && event.player.getOffhandItem().is(ModItems.RHODONITE.get())){
+                        event.player.heal(0.8f);
+                        event.player.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING));
                     }
-                    case 7:{
-                        event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1, 300));
-                        event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1, 300));
-                        event.player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 1, 5));
-                    }
-                    default: break;
+                }
+                if (clan.getClan() == 7){
+                    event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1, 300));
+                    event.player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1, 300));
+                    event.player.heal(4f);
                 }
             });
         }

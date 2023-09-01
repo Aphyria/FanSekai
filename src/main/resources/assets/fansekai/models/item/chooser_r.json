@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "fansekai:item/turquoise_blaze_rod"
+    "layer0": "fansekai:item/turquoise_scroll"
   }
 }

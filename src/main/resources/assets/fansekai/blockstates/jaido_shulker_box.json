@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "fansekai:block/jaido_shulker_box" }
+    "": {
+      "model": "fansekai:block/jaido_shulker_box"
+    }
   }
 }

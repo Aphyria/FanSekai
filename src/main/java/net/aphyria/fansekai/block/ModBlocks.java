@@ -49,8 +49,8 @@ public class ModBlocks {
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_PACKED_BLOCK_VIVID = registerBlock("jaido_packed_block_vivid",
             () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
-//    public static final RegistryObject<Block> JAIDO_SHULKER_BOX = registerBlock("jaido_shulker_box",
-//            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
+    public static final RegistryObject<Block> JAIDO_SHULKER_BOX = registerBlock("jaido_shulker_box",
+            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_STAINED_GLASS = registerBlock("jaido_stained_glass",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_STAINED_GLASS_PANE = registerBlock("jaido_stained_glass_pane",
