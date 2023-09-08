@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "fansekai:block/heliotrope_stained_glass"
+  }
+}

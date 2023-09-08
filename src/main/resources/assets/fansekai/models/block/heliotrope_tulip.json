@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fansekai:block/heliotrope_tulip"
+  },
+  "render_type": "cutout"
+}

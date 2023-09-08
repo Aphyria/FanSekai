@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fansekai:block/turquoise_tulip"
+  },
+  "render_type": "cutout"
+}

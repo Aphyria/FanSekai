@@ -22,6 +22,7 @@
   "block.fansekai.jaido_tulip": "Jade Corrupted Flower",
   "block.fansekai.jaido_tulip_potted": "Potted Jade",
   "block.fansekai.jaido_candle_cake": "Jade Cake Candle",
+  "block.fansekai.jaido_blossom": "Jade Spore Blossom",
 
   "item.fansekai.howlite": "Howlite",
   "item.fansekai.howlite_dust": "Howlite Dust",
@@ -46,6 +47,7 @@
   "block.fansekai.howlite_tulip": "Howlite Corrupted Flower",
   "block.fansekai.howlite_tulip_potted": "Potted Howlite",
   "block.fansekai.howlite_candle_cake": "Howlite Cake Candle",
+  "block.fansekai.howlite_blossom": "Howlite Spore Blossom",
 
   "item.fansekai.heliotrope": "Heliotrope",
   "item.fansekai.heliotrope_dust": "Heliotrope Dust",
@@ -70,6 +72,7 @@
   "block.fansekai.heliotrope_tulip": "Heliotrope Corrupted Flower",
   "block.fansekai.heliotrope_tulip_potted": "Potted Heliotrope",
   "block.fansekai.heliotrope_candle_cake": "Heliotrope Cake Candle",
+  "block.fansekai.heliotrope_blossom": "Heliotrope Spore Blossom",
 
   "item.fansekai.pseudocrocidolite": "Pseudocrocidolite",
   "item.fansekai.pseudocrocidolite_dust": "Pseudocrocidolite Dust",
@@ -94,6 +97,7 @@
   "block.fansekai.pseudocrocidolite_tulip": "Pseudocrocidolite Corrupted Flower",
   "block.fansekai.pseudocrocidolite_tulip_potted": "Potted Pseudocrocidolite",
   "block.fansekai.pseudocrocidolite_candle_cake": "Pseudocrocidolite Cake Candle",
+  "block.fansekai.pseudocrocidolite_blossom": "Pseudocrocidolite Spore Blossom",
 
   "item.fansekai.turquoise": "Turquoise",
   "item.fansekai.turquoise_dust": "Turquoise Dust",
@@ -118,6 +122,7 @@
   "block.fansekai.turquoise_tulip": "Turquoise Corrupted Flower",
   "block.fansekai.turquoise_tulip_potted": "Potted Turquoise",
   "block.fansekai.turquoise_candle_cake": "Turquoise Cake Candle",
+  "block.fansekai.turquoise_blossom": "Turquoise Spore Blossom",
 
   "item.fansekai.rhodonite": "Rhodonite",
   "item.fansekai.rhodonite_dust": "Rhodonite Dust",
@@ -142,6 +147,7 @@
   "block.fansekai.rhodonite_tulip": "Rhodonite Corrupted Flower",
   "block.fansekai.rhodonite_tulip_potted": "Potted Rhodonite",
   "block.fansekai.rhodonite_candle_cake": "Rhodonite Cake Candle",
+  "block.fansekai.rhodonite_blossom": "Rhodonite Spore Blossom",
 
   "item.fansekai.chooser_c": "Scroll of the Jade Dragons",
   "item.fansekai.chooser_v": "Scroll of the Warriors Guild",

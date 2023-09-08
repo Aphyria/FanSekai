@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fansekai:block/turquoise_stained_glass"
+  },
+  "render_type": "transparent"
+}

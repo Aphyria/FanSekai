@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "fansekai:block/heliotrope_candle_cake"
+    },
+    "lit=true": {
+      "model": "fansekai:block/heliotrope_candle_cake_lit"
+    }
+  }
+}

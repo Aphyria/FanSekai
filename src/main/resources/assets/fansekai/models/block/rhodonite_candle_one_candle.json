@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_candle",
+  "textures": {
+    "all": "fansekai:block/rhodonite_candle",
+    "particle": "fansekai:block/rhodonite_candle"
+  }
+}
