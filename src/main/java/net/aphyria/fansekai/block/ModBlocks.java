@@ -46,9 +46,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> JAIDO_GLAZED_TERRACOTTA_VIVID = registerBlock("jaido_glazed_terracotta_vivid",
             () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_PACKED_BLOCK = registerBlock("jaido_packed_block",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_PACKED_BLOCK_VIVID = registerBlock("jaido_packed_block_vivid",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_SHULKER_BOX = registerBlock("jaido_shulker_box",
             () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> JAIDO_STAINED_GLASS = registerBlock("jaido_stained_glass",
@@ -95,9 +95,9 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> HOWLITE_GLAZED_TERRACOTTA_VIVID = registerBlock("howlite_glazed_terracotta_vivid",
 //            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB); -> no textures
     public static final RegistryObject<Block> HOWLITE_PACKED_BLOCK = registerBlock("howlite_packed_block",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_PACKED_BLOCK_VIVID = registerBlock("howlite_packed_block_vivid",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
 //    public static final RegistryObject<Block> HOWLITE_SHULKER_BOX = registerBlock("howlite_shulker_box",
 //            () -> new ShulkerBoxBlock(null, BlockBehaviour.Properties.copy(Blocks.SHULKER_BOX)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HOWLITE_STAINED_GLASS = registerBlock("howlite_stained_glass",
@@ -142,9 +142,9 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> HELIOTROPE_GLAZED_TERRACOTTA_VIVID = registerBlock("heliotrope_glazed_terracotta_vivid",
 //            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB); -> no textures
     public static final RegistryObject<Block> HELIOTROPE_PACKED_BLOCK = registerBlock("heliotrope_packed_block",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_PACKED_BLOCK_VIVID = registerBlock("heliotrope_packed_block_vivid",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> HELIOTROPE_TERRACOTTA_VIVID = registerBlock("heliotrope_terracotta_vivid",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
 //    public static final RegistryObject<Block> HELIOTROPE_TERRACOTTA = registerBlock("heliotrope_terracotta",
@@ -183,9 +183,9 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> TURQUOISE_GLAZED_TERRACOTTA_VIVID = registerBlock("turquoise_glazed_terracotta_vivid",
 //            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB); -> no textures
     public static final RegistryObject<Block> TURQUOISE_PACKED_BLOCK = registerBlock("turquoise_packed_block",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> TURQUOISE_PACKED_BLOCK_VIVID = registerBlock("turquoise_packed_block_vivid",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
 //    public static final RegistryObject<Block> TURQUOISE_TERRACOTTA_VIVID = registerBlock("turquoise_terracotta_vivid",
 //            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB); -> no textures
     public static final RegistryObject<Block> TURQUOISE_TERRACOTTA = registerBlock("turquoise_terracotta",
@@ -224,9 +224,9 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> PSEUDOCROCIDOLITE_GLAZED_TERRACOTTA_VIVID = registerBlock("pseudocrocidolite_glazed_terracotta_vivid",
 //            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB); -> no textures
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_PACKED_BLOCK = registerBlock("pseudocrocidolite_packed_block",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_PACKED_BLOCK_VIVID = registerBlock("pseudocrocidolite_packed_block_vivid",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_TERRACOTTA_VIVID = registerBlock("pseudocrocidolite_terracotta_vivid",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_TERRACOTTA = registerBlock("pseudocrocidolite_terracotta",
@@ -265,9 +265,9 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> RHODONITE_GLAZED_TERRACOTTA_VIVID = registerBlock("rhodonite_glazed_terracotta_vivid",
 //            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB); -> no textures
     public static final RegistryObject<Block> RHODONITE_PACKED_BLOCK = registerBlock("rhodonite_packed_block",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> RHODONITE_PACKED_BLOCK_VIVID = registerBlock("rhodonite_packed_block_vivid",
-            () -> new IceBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModTabs.FANSEKAI_TAB);
 //    public static final RegistryObject<Block> RHODONITE_TERRACOTTA_VIVID = registerBlock("rhodonite_terracotta_vivid",
 //            () -> new Block(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModTabs.FANSEKAI_TAB); -> no textures
     public static final RegistryObject<Block> RHODONITE_TERRACOTTA = registerBlock("rhodonite_terracotta",
