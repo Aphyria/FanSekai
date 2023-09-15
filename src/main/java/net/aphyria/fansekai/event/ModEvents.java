@@ -6,29 +6,23 @@ import net.aphyria.fansekai.clans.PlayerClan;
 import net.aphyria.fansekai.clans.PlayerClansProvider;
 import net.aphyria.fansekai.item.ModItems;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.vehicle.Minecart;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
-import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.event.RegisterGameTestsEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fluids.FluidType;
 import net.minecraftforge.fml.LogicalSide;
 import net.minecraftforge.fml.common.Mod;
 
-import java.util.function.BiPredicate;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Mod.EventBusSubscriber(modid = FanSekai.MODID)
 public class ModEvents {
+    private static AtomicInteger x = new AtomicInteger();
     @SubscribeEvent
     public static void onAttachCapabilitiesPlayer(AttachCapabilitiesEvent<Entity> event){
         if (event.getObject() instanceof Player){
@@ -39,9 +33,11 @@ public class ModEvents {
     }
     @SubscribeEvent
     public static void onPlayerCloned(PlayerEvent.Clone event){
-        if (event.isWasDeath()){
-            event.getOriginal().getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(oldStore ->
-                    event.getOriginal().getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(newStore -> newStore.copyFrom(oldStore)));
+        if (event.isWasDeath()) {
+            event.getOriginal().reviveCaps();
+            event.getOriginal().getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(clan -> x.set(clan.getClan()));
+            event.getOriginal().invalidateCaps();
+            event.getEntity().getCapability(PlayerClansProvider.PLAYER_CLAN).ifPresent(clan -> clan.setClan(x.get()));
         }
     }
     @SubscribeEvent

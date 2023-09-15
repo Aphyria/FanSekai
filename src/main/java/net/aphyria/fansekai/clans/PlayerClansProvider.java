@@ -2,6 +2,7 @@ package net.aphyria.fansekai.clans;
 
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.common.capabilities.CapabilityToken;
@@ -22,6 +23,10 @@ public class PlayerClansProvider implements ICapabilityProvider, INBTSerializabl
                 this.clan = new PlayerClan();
             }
             return this.clan;
+    }
+
+    public static LazyOptional<PlayerClan> getClansOG(final LivingEntity entity){
+        return entity.getCapability(PLAYER_CLAN);
     }
 
     @Override

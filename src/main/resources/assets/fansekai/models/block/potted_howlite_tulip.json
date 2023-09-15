@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/flower_pot_cross",
   "textures": {
-    "cross": "fansekai:block/howlite_tulip"
+    "plant": "fansekai:block/howlite_tulip"
   },
   "render_type": "cutout"
 }

@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/flower_pot_cross",
+  "parent": "block/flower_pot_cross",
   "textures": {
-    "cross": "fansekai:block/jaido_tulip"
+    "plant": "fansekai:block/jaido_tulip"
   },
   "render_type": "cutout"
 }
