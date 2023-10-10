@@ -55,7 +55,7 @@ public class ModEvents {
                     }
                 }
                 if (clan.getClan() == 2){
-                    event.player.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING));
+                    event.player.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 11));
                     if (event.player.getOffhandItem().is(ModItems.HOWLITE.get())){
                         event.player.addEffect(new MobEffectInstance(MobEffects.JUMP));
                     }
