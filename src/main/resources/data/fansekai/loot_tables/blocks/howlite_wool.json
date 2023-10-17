@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type":"minecraft:item",
+          "name":"fansekai:howlite_wool"
+        }
+      ],"rolls": 1.0
+    }
+  ]
+}

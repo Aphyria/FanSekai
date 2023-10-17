@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type":"minecraft:item",
+          "name":"fansekai:turquoise_blossom"
+        }
+      ],"rolls": 1.0
+    }
+  ]
+}
