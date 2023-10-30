@@ -114,6 +114,8 @@ public class ModBlocks {
             () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.ORANGE_TULIP)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> POTTED_HOWLITE_TULIP = registerBlock("potted_howlite_tulip",
             () -> new FlowerPotBlock(HOWLITE_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_ORANGE_TULIP)), null);
+    public static final RegistryObject<Block> HOWLITE_CANDLE_CAKE = registerBlock("howlite_candle_cake",
+            () -> new CandleCakeBlock(HOWLITE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)), null);
     public static final RegistryObject<Block> HOWLITE_BLOSSOM =registerBlock("howlite_blossom",
             () -> new SporeBlossomBlock(BlockBehaviour.Properties.copy(Blocks.SPORE_BLOSSOM)), ModTabs.FANSEKAI_TAB);
 
@@ -155,6 +157,8 @@ public class ModBlocks {
             () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.ORANGE_TULIP)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> POTTED_HELIOTROPE_TULIP = registerBlock("potted_heliotrope_tulip",
             () -> new FlowerPotBlock(HELIOTROPE_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_ORANGE_TULIP)), null);
+    public static final RegistryObject<Block> HELIOTROPE_CANDLE_CAKE = registerBlock("heliotrope_candle_cake",
+            () -> new CandleCakeBlock(HELIOTROPE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)), null);
     public static final RegistryObject<Block> HELIOTROPE_BLOSSOM =registerBlock("heliotrope_blossom",
             () -> new SporeBlossomBlock(BlockBehaviour.Properties.copy(Blocks.SPORE_BLOSSOM)), ModTabs.FANSEKAI_TAB);
 
@@ -196,6 +200,8 @@ public class ModBlocks {
             () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.ORANGE_TULIP)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> POTTED_TURQUOISE_TULIP = registerBlock("potted_turquoise_tulip",
             () -> new FlowerPotBlock(TURQUOISE_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_ORANGE_TULIP)), null);
+    public static final RegistryObject<Block> TURQUOISE_CANDLE_CAKE = registerBlock("turquoise_candle_cake",
+            () -> new CandleCakeBlock(TURQUOISE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)), null);
     public static final RegistryObject<Block> TURQUOISE_BLOSSOM =registerBlock("turquoise_blossom",
             () -> new SporeBlossomBlock(BlockBehaviour.Properties.copy(Blocks.SPORE_BLOSSOM)), ModTabs.FANSEKAI_TAB);
 
@@ -237,6 +243,8 @@ public class ModBlocks {
             () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.ORANGE_TULIP)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> POTTED_PSEUDOCROCIDOLITE_TULIP = registerBlock("potted_pseudocrocidolite_tulip",
             () -> new FlowerPotBlock(PSEUDOCROCIDOLITE_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_ORANGE_TULIP)), null);
+    public static final RegistryObject<Block> PSEUDOCROCIDOLITE_CANDLE_CAKE = registerBlock("pseudocrocidolite_candle_cake",
+            () -> new CandleCakeBlock(PSEUDOCROCIDOLITE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)), null);
     public static final RegistryObject<Block> PSEUDOCROCIDOLITE_BLOSSOM =registerBlock("pseudocrocidolite_blossom",
             () -> new SporeBlossomBlock(BlockBehaviour.Properties.copy(Blocks.SPORE_BLOSSOM)), ModTabs.FANSEKAI_TAB);
 
@@ -278,6 +286,8 @@ public class ModBlocks {
             () -> new FlowerBlock((Supplier<MobEffect>) null, 0, BlockBehaviour.Properties.copy(Blocks.ORANGE_TULIP)), ModTabs.FANSEKAI_TAB);
     public static final RegistryObject<Block> POTTED_RHODONITE_TULIP = registerBlock("potted_rhodonite_tulip",
             () -> new FlowerPotBlock(RHODONITE_TULIP.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_ORANGE_TULIP)), null);
+    public static final RegistryObject<Block> RHODONITE_CANDLE_CAKE = registerBlock("rhodonite_candle_cake",
+            () -> new CandleCakeBlock(RHODONITE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)), null);
     public static final RegistryObject<Block> RHODONITE_BLOSSOM =registerBlock("rhodonite_blossom",
             () -> new SporeBlossomBlock(BlockBehaviour.Properties.copy(Blocks.SPORE_BLOSSOM)), ModTabs.FANSEKAI_TAB);
 
