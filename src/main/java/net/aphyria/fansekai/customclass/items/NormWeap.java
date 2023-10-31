@@ -1,6 +1,6 @@
 package net.aphyria.fansekai.customclass.items;
 
-import net.aphyria.fansekai.item.ModTabs;
+import net.aphyria.fansekai.util.ModTabs;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;

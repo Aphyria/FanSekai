@@ -1,0 +1,8 @@
+{
+  "name": "A Guide to Jade",
+  "landing_text": "A guide to the natural resource found on this strange new world called \"Jade\" and its uses along with different experiments you can try yourself.",
+  "version": 1,
+  "creative_tab": "fansekai_tab",
+  "use_resource_pack": true,
+  "book_texture": "patchouli:textures/gui/book_cyan.png"
+}

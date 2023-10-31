@@ -1,9 +1,8 @@
 package net.aphyria.fansekai.customclass.choosers;
 
 import net.aphyria.fansekai.clans.PlayerClansProvider;
-import net.aphyria.fansekai.item.ModTabs;
+import net.aphyria.fansekai.util.ModTabs;
 import net.minecraft.ChatFormatting;
-import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -12,8 +11,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.Level;
-
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Water extends Item {
 

@@ -1,0 +1,15 @@
+{
+  "name": "Upgrading Netherite",
+  "icon": "minecraft:netherite_chestplate",
+  "category": "fansekai:armor",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "Netherite, while being from the Nether, is considered the most powerful Armor in this world. Our Studies already proved that Howlite infused with magic, the $(item)Howlite Crystals$() are way more durable than Netherite and as an added bonus, $(thing)interact with a user's magic ability$().$(br)As of now, no traditional corruption techniques of Netherite are known to be safe."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crafting a piece of equipment out of raw Howlite is out of the question as it could create a rift in space-time, opening portals to other realities and letting unbelievable horrors into this world.$(br)Perhaps the good old method of hammering a crystal into the Netherite armor pieces might do the trick?$(br)Further research is required..."
+    }
+  ]
+}

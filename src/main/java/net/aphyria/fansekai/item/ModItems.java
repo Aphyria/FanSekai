@@ -5,8 +5,9 @@ import net.aphyria.fansekai.customclass.aphy.AphyKatana;
 import net.aphyria.fansekai.customclass.aphy.OPAmulet;
 import net.aphyria.fansekai.customclass.aphy.AphyKimono;
 import net.aphyria.fansekai.customclass.choosers.*;
-import net.aphyria.fansekai.customclass.items.Chooser;
+import net.aphyria.fansekai.util.ModTabs;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.common.property.Properties;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -59,6 +60,12 @@ public class ModItems {
     public static final RegistryObject<Item> CHOOSER_R = ITEMS.register("chooser_r", () -> new Mayhem());
     public static final RegistryObject<Item> CHOOSER_T = ITEMS.register("chooser_t", () -> new Hunters());
     public static final RegistryObject<Item> CHOOSER_B = ITEMS.register("chooser_b", () -> new Water());
+
+    //misc
+    public static final RegistryObject<Item> STRONG_PAPER = ITEMS.register("strong_paper", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
+    public static final RegistryObject<Item> PARCHMENT = ITEMS.register("parchment", () -> new Item(new Item.Properties().tab(ModTabs.FANSEKAI_TAB)));
+
+    //books
 
 
     //Aphy stuffs

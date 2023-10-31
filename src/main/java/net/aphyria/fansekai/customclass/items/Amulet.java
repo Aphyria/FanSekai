@@ -1,6 +1,6 @@
 package net.aphyria.fansekai.customclass.items;
 
-import net.aphyria.fansekai.item.ModTabs;
+import net.aphyria.fansekai.util.ModTabs;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

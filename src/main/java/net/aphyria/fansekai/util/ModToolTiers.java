@@ -1,7 +1,7 @@
-package net.aphyria.fansekai.item;
+package net.aphyria.fansekai.util;
 
 import net.aphyria.fansekai.FanSekai;
-import net.aphyria.fansekai.util.ModTags;
+import net.aphyria.fansekai.item.ModItems;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;

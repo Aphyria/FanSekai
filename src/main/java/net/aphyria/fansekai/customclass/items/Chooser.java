@@ -1,7 +1,7 @@
 package net.aphyria.fansekai.customclass.items;
 
 import net.aphyria.fansekai.clans.PlayerClansProvider;
-import net.aphyria.fansekai.item.ModTabs;
+import net.aphyria.fansekai.util.ModTabs;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;

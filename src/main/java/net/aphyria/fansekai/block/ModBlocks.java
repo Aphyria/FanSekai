@@ -3,7 +3,7 @@ package net.aphyria.fansekai.block;
 import net.aphyria.fansekai.FanSekai;
 import net.aphyria.fansekai.customclass.blocks.Ore;
 import net.aphyria.fansekai.item.ModItems;
-import net.aphyria.fansekai.item.ModTabs;
+import net.aphyria.fansekai.util.ModTabs;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;

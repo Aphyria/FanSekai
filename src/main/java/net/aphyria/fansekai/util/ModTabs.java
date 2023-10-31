@@ -1,4 +1,4 @@
-package net.aphyria.fansekai.item;
+package net.aphyria.fansekai.util;
 
 import net.aphyria.fansekai.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTab;
