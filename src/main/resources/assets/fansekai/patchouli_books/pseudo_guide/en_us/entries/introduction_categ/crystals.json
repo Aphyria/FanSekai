@@ -1,0 +1,28 @@
+{
+  "name": "Pseudocrocidolite Crystals",
+  "icon": "fansekai:pseudocrocidolite",
+  "category": "fansekai:introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Pseudo crystals exist as is inside of the Pseudo Ores. Sadly due to our current understanding of Pseudo and its processing, we can only extract a small amount of powder from $(thing)smelting$() of the $(item)Pseudo Ore$()."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "fansekai:ore_tig",
+      "text": "As you can see here, smelting of the Ore is really inefficient as is at this moment in time."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fansekai:pseudocrocidolite_craft",
+      "text": "Through Desktop's tiger magic, we are able to recreate the powder of the broken gems into full gems again, albeit very inefficient."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fansekai:pseudocrocidolite_block",
+      "recipe2": "fansekai:pseudocrocidolite_from_block",
+      "title": "Pseudocrocidolite Storage",
+      "text": "Not useful for any processes known to us at this point in time, it proves an incredible way to store crystals in a more compact manner."
+    }
+  ]
+}

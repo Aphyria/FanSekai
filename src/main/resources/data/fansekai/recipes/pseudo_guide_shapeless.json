@@ -1,0 +1,18 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "fansekai:pseudocrocidolite_dust"
+    },
+    {
+      "item": "fansekai:parchment"
+    },
+    {
+      "item": "fansekai:parchment"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "book": "pseudo_guide"
+}

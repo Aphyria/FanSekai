@@ -1,0 +1,35 @@
+{
+  "name": "What is Turquoise?",
+  "icon": "fansekai:turquoise_ore",
+  "category": "fansekai:introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Turquoise is one of the new types of resources found in this world. $(br)We do not currently know how it got here, but we know that it can be used to $(#f00)\"corrupt\" $()certain blocks."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "fansekai:turquoise_ore"
+      },
+      "link_recipe": true,
+      "text": "As implied, this is the Turquoise Ore. It can rarely be found deep underground in the Overworld. "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "fansekai:turquoise_cluster"
+      },
+      "link_recipe": true,
+      "text": "This is the most common source of Turquoise. Scattered around the world are Geodes containing these little guys. $(br)Upon breaking one without a Silk Touch pickaxe, you will be rewarded a singular piece of dust."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "fansekai:turquoise_dust"
+      },
+      "link_recipe": true,
+      "text": "Turquoise dust is the main product of smelting $(item)Turquoise Ore$() and the byproduct of destroying $(item)Turquoise Clusters$(). Since our smelting methods are still inefficient, it is recommended to keep the ore until more efficient ways of smelting and extracting are found. $(br)As for the clusters, unless mined carefully, they will always drop dust when broken."
+    }
+  ]
+}

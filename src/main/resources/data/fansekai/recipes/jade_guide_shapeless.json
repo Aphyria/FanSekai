@@ -1,0 +1,18 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "fansekai:jaido_dust"
+    },
+    {
+      "item": "fansekai:parchment"
+    },
+    {
+      "item": "fansekai:parchment"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "book": "jade_guide"
+}

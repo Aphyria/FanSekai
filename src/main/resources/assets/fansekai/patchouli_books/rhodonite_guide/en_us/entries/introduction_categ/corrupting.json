@@ -1,0 +1,29 @@
+{
+  "name": "Corruption",
+  "icon": "fansekai:rhodonitestone_block",
+  "category": "fansekai:introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Rhodonite Crystals$() are very volatile and reactive, meaning they will $(thing)corrupt$() most blocks it comes into contact with. Sometimes it will be too weak and require multiple $(item)Crystals$(), other times it will be too strong and require more of the original material. In cases of complete balance, only one of each material is required."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fansekai:rhodonite_crystal_raw",
+      "recipe2": "fansekai:rhodonite_crystal_vivid_raw"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fansekai:rhodonite_crystal_from_vivid",
+      "recipe2": "fansekai:rhodonitestone"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Somehow, $(thing)corrupting$() a piece of $(item)Redstone Dust$() seems to keep the redstone capability while creating an infinite output. $(br)Sadly while trying to revert the corruption, we discovered that the only working method was to remove the $(item)Redstone Dust$(), destroying it in the process and making the $(item)Rhodonite Dust$() collapse back into its original form."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fansekai:rhodonite_dust_from_stone"
+    }
+  ]
+}

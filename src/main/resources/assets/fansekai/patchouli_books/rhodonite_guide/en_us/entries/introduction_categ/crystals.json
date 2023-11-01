@@ -1,0 +1,28 @@
+{
+  "name": "Rhodonite Crystals",
+  "icon": "fansekai:rhodonite",
+  "category": "fansekai:introduction",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rhodonite crystals exist as is inside of the Rhodonite Ores. Sadly due to our current understanding of Rhodonite and its processing, we can only extract a small amount of powder from $(thing)smelting$() of the $(item)Rhodonite Ore$()."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "fansekai:ore_rabu",
+      "text": "As you can see here, smelting of the Ore is really inefficient as is at this moment in time."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fansekai:rhodonite_craft",
+      "text": "Through Rabu's dragon magic, we are able to recreate the powder of the broken gems into full gems again, albeit very inefficient."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fansekai:rhodonite_block",
+      "recipe2": "fansekai:rhodonite_from_block",
+      "title": "Rhodonite Storage",
+      "text": "Not useful for any processes known to us at this point in time, it proves an incredible way to store crystals in a more compact manner."
+    }
+  ]
+}

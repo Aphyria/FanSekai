@@ -1,0 +1,18 @@
+{
+  "type": "patchouli:shapeless_book_recipe",
+  "ingredients": [
+    {
+      "item": "fansekai:turquoise_dust"
+    },
+    {
+      "item": "fansekai:parchment"
+    },
+    {
+      "item": "fansekai:parchment"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "book": "turquoise_guide"
+}
