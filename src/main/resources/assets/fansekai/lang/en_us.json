@@ -159,7 +159,18 @@
   "item.fansekai.chooser_t": "Scroll of the Hunters Federation",
   "item.fansekai.chooser_b": "Scroll of the Water Dragons",
 
-
+  "item.fansekai.jade_helmet": "Jade Infused Helmet",
+  "item.fansekai.jade_chest": "Jade Infused Chestplate",
+  "item.fansekai.jade_legs": "Jade Infused Leggings",
+  "item.fansekai.jade_boots": "Jade Infused Boots",
+  "item.fansekai.howlite_helmet": "Howlite Infused Helmet",
+  "item.fansekai.howlite_chest": "Howlite Infused Chestplate",
+  "item.fansekai.howlite_legs": "Howlite Infused Leggings",
+  "item.fansekai.howlite_boots": "Howlite Infused Boots",
+  "item.fansekai.heliotrope_helmet": "Heliotrope Infused Helmet",
+  "item.fansekai.heliotrope_chest": "Heliotrope Infused Chestplate",
+  "item.fansekai.heliotrope_legs": "Heliotrope Infused Leggings",
+  "item.fansekai.heliotrope_boots": "Heliotrope Infused Boots",
 
 
 
@@ -196,6 +207,7 @@
   "item.fansekai.scythe_op": "Ny'exthis, Devourer of Realities",
 
   "itemGroup.fansekai_tab": "Fansekai: Blocks & Mats",
+  "itemGroup.fansekai_tab_combat": "Fansekai: Combat",
   "effect.fansekai.infeff": "Infinity's Grace",
   "effect.fansekai.sotd": "Strength of the Dragon"
 }

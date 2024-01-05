@@ -1,5 +1,6 @@
 package net.aphyria.fansekai.customclass.aphy;
 
+import net.aphyria.fansekai.item.ModArmorMat;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.LivingEntity;

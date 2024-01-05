@@ -9,7 +9,22 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Crafting a piece of equipment out of raw Heliotrope is out of the question as it could create a rift in space-time, opening portals to other realities and letting unbelievable horrors into this world.$(br)Perhaps the good old method of hammering a crystal into the Netherite armor pieces might do the trick?$(br)Further research is required..."
+      "text": "Crafting a piece of equipment out of raw Heliotrope is out of the question as it could create a rift in space-time, opening portals to other realities and letting unbelievable horrors into this world.$(br)However, we think we might have found a safe way of imbuing crystals into armor using already established methods."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "fansekai:heliotrope_helmet",
+      "recipe2": "fansekai:heliotrope_chest",
+      "title": "Infusion",
+      "text": "By rigorous testing, we have discovered that the most obvious method is the most effective and safe."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "fansekai:heliotrope_legs",
+      "recipe2": "fansekai:heliotrope_boots",
+      "title": "Infusion",
+      "text": "This resembles upgrading a set of diamond armor to netherite. Should not cause any spacial anomalies."
     }
-  ]
+  ],
+  "advancement": "minecraft:nether/netherite_armor"
 }
